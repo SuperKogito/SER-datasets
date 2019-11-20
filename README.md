@@ -1,6 +1,4 @@
-# Speech-Emotion-Recognition
-
-Datasets collection for emotions recognition in speech
+# Speech-Emotion-Recognition Datasets
 
 | Dataset                                                                                     | Year | Type         | Content                                                                                                                                                      | Format | Size | Language |
 |---------------------------------------------------------------------------------------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------|----------|
