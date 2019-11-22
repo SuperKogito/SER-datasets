@@ -18,7 +18,7 @@
 |                                                                                             |      |              |                                                                                                                                                              |        |      |          |
 
 ## References
-
+- [A State of the Art Review on Emotional Speech Databases](http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Ververidis2003b.pdf)
 - [media-tum-doc](https://mediatum.ub.tum.de/doc/1137841/780196.pdf)
 - [A State of the Art Review on Emotional Speech Databases](http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Ververidis2003b.pdf)
 - [emosamples](http://emosamples.syntheticspeech.de/)
