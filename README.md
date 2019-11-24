@@ -25,6 +25,6 @@
 - [A State of the Art Review on Emotional Speech Databases](http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Ververidis2003b.pdf)
 - [Extraction of Emotions from Speech-A Survey](https://www.ripublication.com/ijaer17/ijaerv12n16_46.pdf)
 - [Emotional Speech Databases](https://link.springer.com/content/pdf/bbm%3A978-90-481-3129-7%2F1.pdf)
-- [TUM document](https://mediatum.ub.tum.de/doc/1137841/780196.pdf)
 - [Expressive Synthetic Speech](http://emosamples.syntheticspeech.de/)
 - [github.com/numediart/EmoV-D](https://github.com/numediart/EmoV-DB)
+- [TUM document](https://mediatum.ub.tum.de/doc/1137841/780196.pdf)
