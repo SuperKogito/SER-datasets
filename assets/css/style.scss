@@ -466,7 +466,7 @@ hr {
 	margin-top: 3em;
 }
 .post-list .post-item {
-	margin-bottom: 1rem;
+	margin-bottom: 1em;
 	margin-left: 0;
 	list-style-type: none;
 }
@@ -485,7 +485,7 @@ hr {
 }
 div.code-block-caption span.caption-text {
 	font-weight: 700;
-	color=var(--link-color-visited);
+	color : var(--link-color-visited);
 }
 .highlight .n {
 	color : var(--main-text-color);
