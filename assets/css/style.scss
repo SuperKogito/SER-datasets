@@ -2,12 +2,6 @@
 ---
 
 @import "";
-@font-face {
-	font-family: 'neon';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/ubuntu/kit/ubuntu-regular-webfont.woff2') format('woff2'),url('../fonts/ubuntu/kit/ubuntu-regular-webfont.woff') format('woff');
-}
 html,html[theme=light] {
 	--box-background-color: hsl(0, 0%, 90%);
 	--highlight-color: hsl(0, 0%, 80%);
@@ -56,7 +50,7 @@ html[theme=dark] {
 		--tag-color: hsl(0, 10%, 90%);
 	}
 }
-: root {
+:root {
 	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -266,7 +260,7 @@ a {
 	text-decoration: none;
 	font-family: "neon";
 }
-body a: hover {
+body a:hover {
 	color: var(--link-color);
 	text-decoration: underline;
 }
@@ -318,10 +312,10 @@ dd {
 	font-size: .9em;
 	line-height: 1.3em;
 }
-: : selection {
+::selection {
 	background-color: var(--highlight-color);
 }
-.listing: last-of-type {
+.listing:last-of-type {
 	margin-bottom: 2em;
 }
 .listing-title {
@@ -359,7 +353,7 @@ dd {
 .tag-nav span {
 	flex-basis: 33.3%;
 }
-.tag-nav span: first-child {
+.tag-nav span:first-child {
 	margin-top: 1.5em;
 }
 .tag-lists {
