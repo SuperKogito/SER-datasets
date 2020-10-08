@@ -56,315 +56,80 @@ html[theme=dark] {
 		--tag-color: hsl(0, 10%, 90%);
 	}
 }
-:root {
-	min-height: 100vh;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-
-
-
-
-
-
-.highlight {
- color:var(--main-text-color);
-}
-.highlight table td {
- padding:5px
-}
-.highlight table pre {
- margin:0
-}
-.highlight .w {
- color:var(--main-text-color);
-}
-.highlight .err {
-	color:var(--main-text-color);
- background-color:var(--main-background-color);
-}
-.highlight .c,
-.highlight .cd,
-.highlight .cm,
-.highlight .c1,
-.highlight .cs {
-	color:var(--main-text-color);
-}
-.highlight .cp {
-	color:var(--main-text-color);
-}
-.highlight .o,
-.highlight .ow {
-	color:var(--main-text-color);
-}
-.highlight .p,
-.highlight .pi {
- color:var(--main-text-color);
-}
-.highlight .gi {
-	color:var(--main-text-color);
-}
-.highlight .gd {
-	color:var(--main-text-color);
-}
-.highlight .gh {
-	color:var(--main-text-color);
- font-weight:bold
-}
-.highlight .k,
-.highlight .kn,
-.highlight .kp,
-.highlight .kr,
-.highlight .kv {
-	color:var(--main-text-color);
-}
-.highlight .kc,
-.highlight .kt,
-.highlight .kd {
-	color:var(--main-text-color);
-}
-.highlight .s,
-.highlight .sb,
-.highlight .sc,
-.highlight .sd,
-.highlight .s2,
-.highlight .sh,
-.highlight .sx,
-.highlight .s1 {
-	color:var(--main-text-color);
-}
-.highlight .sr {
-	color:var(--main-text-color);
-}
-.highlight .si,
-.highlight .se {
-	color:var(--main-text-color);
-}
-.highlight .nt,
-.highlight .nn,
-.highlight .nc,
-.highlight .no {
-	color:var(--main-text-color);
-}
-.highlight .na {
-	color:var(--main-text-color);
-}
-.highlight .m,
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .il,
-.highlight .mo,
-.highlight .mb,
-.highlight .mx {
-	color:var(--main-text-color);
-}
-.highlight .ss {
-	color:var(--main-text-color);
-}
 body {
- margin:0;
- padding:0;
- background:#151515 url("../images/bkg.png") 0 0;
- color:var(--main-text-color);
- font-size:16px;
- line-height:1.5;
- font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+	width: inherit;
+	margin: 1% auto 0 auto;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-feature-settings: "kern";
+	font-family: "neon";
+	font-size: 12px;
+	min-width: 1090px;
+	max-width: 1090px;
 }
-.container {
- width:90%;
- max-width:1000px;
- margin:0 auto
+div {
+	width: inherit;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-feature-settings: "kern";
+	font-family: "neon";
+	font-size: 16px;
+	min-width: 5px;
+	max-width: 100%;
 }
-section {
- display:block;
- margin:0 0 20px 0
+div {
+	width: grid;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-feature-settings: "kern";
+	font-family: "neon";
+	font-size: 16px;
+	min-width: 5px;
+	max-width: inherit;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- margin:0 0 20px
+div.document {
+	width: inherit;
+	margin: inherit;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-family: "neon";
+	font-size: 16px;
+	margin: 0 0 0 0;
 }
-li {
- line-height:1.4
+div.documentwrapper {
+	width: 100%;
+	float: left;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-family: "neon";
+	font-size: 16px;
 }
-header {
- background:rgba(0,0,0,0.1);
- width:100%;
- border-bottom:1px dashed color:var(--main-text-color);
- padding:20px 0;
- margin:0 0 40px 0
+div.body {
+	width: inherit;
+	padding: 0 0 0 0;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-feature-settings: "kern";
+	font-family: "neon";
+	font-size: 16px;
+	min-width: 45%;
+	max-width: 100%;
 }
-header h1 {
- font-size:30px;
- line-height:1.5;
- margin:0 0 0 -40px;
- font-weight:bold;
- font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
- color:#b5e853;
- text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
- letter-spacing:-1px;
- -webkit-font-smoothing:antialiased
-}
-@media (max-width: 1000px) {
- header h1 {
-  margin-left:0
- }
-}
-header h1:before {
- content:"./ ";
- font-size:24px
-}
-header h2 {
- font-size:18px;
- font-weight:300;
- color:var(--main-text-color);
-}
-#downloads .btn {
- display:inline-block;
- text-align:center;
- margin:0
-}
-#main_content {
- width:100%;
- -webkit-font-smoothing:antialiased
-}
-section img {
- max-width:100%
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-weight:normal;
- font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
- color:#b5e853;
- letter-spacing:-0.03em;
- text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
-}
-#main_content h1 {
- font-size:30px
-}
-#main_content h2 {
- font-size:24px
-}
-#main_content h3 {
- font-size:18px
-}
-#main_content h4 {
- font-size:14px
-}
-#main_content h5 {
- font-size:12px;
- text-transform:uppercase;
- margin:0 0 5px 0
-}
-#main_content h6 {
- font-size:12px;
- text-transform:uppercase;
- color:var(--main-text-color);
- margin:0 0 5px 0
-}
-dt {
- font-style:italic;
- font-weight:bold
-}
-ul li {
- list-style-image:url("../images/bullet.png")
-}
-blockquote {
- color:var(--main-text-color);
- padding-left:10px;
- border-left:1px dotted color:var(--main-text-color);
-}
-pre {
- background:rgba(0,0,0,0.9);
- border:1px solid rgba(255,255,255,0.15);
- padding:10px;
- font-size:16px;
- color:#b5e853;
- border-radius:2px;
- word-wrap:normal;
- overflow:auto;
- overflow-y:hidden
-}
-code.highlighter-rouge {
- background:rgba(0,0,0,0.9);
- border:1px solid rgba(255,255,255,0.15);
- padding:0px 3px;
- margin:0px -3px;
- color:#aa759f;
- border-radius:2px
-}
-table {
- width:100%;
- margin:0 0 20px 0
-}
-th {
- text-align:left;
- border-bottom:1px dashed #b5e853;
- padding:5px 10px
-}
-td {
- padding:5px 10px
-}
-hr {
- height:0;
- border:0;
- border-bottom:1px dashed #b5e853;
- color:#b5e853
-}
-.btn {
- display:inline-block;
- background:-webkit-linear-gradient(top, rgba(40,40,40,0.3), rgba(35,35,35,0.3) 50%, rgba(10,10,10,0.3) 50%, rgba(0,0,0,0.3));
- padding:8px 18px;
- border-radius:50px;
- border:2px solid rgba(0,0,0,0.7);
- border-bottom:2px solid rgba(0,0,0,0.7);
- border-top:2px solid #000;
- color:rgba(255,255,255,0.8);
- font-family:Helvetica, Arial, sans-serif;
- font-weight:bold;
- font-size:13px;
- text-decoration:none;
- text-shadow:0 -1px 0 rgba(0,0,0,0.75);
- box-shadow:inset 0 1px 0 rgba(255,255,255,0.05)
-}
-.btn:hover {
- background:-webkit-linear-gradient(top, rgba(40,40,40,0.6), rgba(35,35,35,0.6) 50%, rgba(10,10,10,0.8) 50%, rgba(0,0,0,0.8))
-}
-.btn .icon {
- display:inline-block;
- width:16px;
- height:16px;
- margin:1px 8px 0 0;
- float:left
-}
-.btn-github .icon {
- opacity:0.6;
- background:url("../images/blacktocat.png") 0 0 no-repeat
-}
-a {
- color:#63c0f5;
- text-shadow:0 0 5px rgba(104,182,255,0.5)
-}
-.cf:before,
-.cf:after {
- content:"";
- display:table
-}
-.cf:after {
- clear:both
-}
-.cf {
- zoom:1
-}
-#a-title {
- text-decoration:none
+div.sub-title-menu {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: var(--main-text-color);
+	background-color: var(--main-background-color);
+	font-feature-settings: "kern"on;
+	font-family: "neon";
+	font-size: 16px;
+	min-width: 35%;
+	max-width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
 }
