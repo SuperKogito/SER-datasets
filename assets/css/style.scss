@@ -6,7 +6,7 @@
 	font-family: 'neon';
 	font-style: normal;
 	font-weight: 400;
-	src: url('ubuntu/kit/ubuntu-regular-webfont.woff2') format('woff2'),url('ubuntu/kit/ubuntu-regular-webfont.woff') format('woff');
+	src: url('font/kit/ubuntu-regular-webfont.woff2') format('woff2'),url('font/kit/ubuntu-regular-webfont.woff') format('woff');
 }
 html,html[theme=light] {
 	--box-background-color: hsl(0, 0%, 90%);
@@ -135,8 +135,49 @@ div.sub-title-menu {
 }
 .main-content {
     max-width: 1090px;
-		max-width: 650px;
-    padding: 2rem 6rem;
+		min-width: 650px;
+    padding: 0 0;
     margin: 0 auto;
     font-size: 1.1rem;
+}
+
+/* menu css */
+div.sub-title-menu {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+    font-feature-settings: "kern"on;
+    font-family: "neon";
+    font-size: 16px;
+    min-width: 35%;
+    max-width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+div.sub-title-menu table {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: var(--link-color);
+    background-color: var(--main-background-color);
+}
+th.icon {
+    text-align: left;
+    padding-right: 5px;
+}
+th.menu-label {
+    display: ruby;
+}
+div.sub-title-menu a {
+    font-weight: 700;
+    margin: 0 0 0 0;
+        margin-left: 0px;
+    margin-left: 0px;
+    color: var(--link-color);
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .05em;
+    margin-left: 0;
 }
