@@ -58,7 +58,7 @@ html[theme=dark] {
 }
 body {
 	width: inherit;
-	margin: 1% auto 0 auto;
+	margin: 44px auto 0 auto;
 	color: var(--main-text-color);
 	background-color: var(--main-background-color);
 	font-feature-settings: "kern";
@@ -141,11 +141,30 @@ div.sub-title-menu {
     font-size: 1.1rem;
 }
 div.body h1 {
-    display: flex;
-    margin: 1em 0 0.25em 0;
-    font-family: "neon";
-    font-size: 180%;
+	display: flex;
+	margin: 1em 0 0.25em 0;
+	font-family: "neon";
+	font-size: 28.8px;
+	margin-top: 0;
+	font-weight: normal;
+	padding: 0;
+	border-bottom-color: var(--main-text-color);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	text-align: left;
+	color: var(--main-text-color);
+	font-feature-settings: "kern";
 }
+.page-header {
+    padding: 0 0;
+}
+th {
+    padding: 0px;
+    text-align: left;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
 /* menu css */
 div.sub-title-menu {
     width: 100%;
