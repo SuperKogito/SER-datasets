@@ -58,7 +58,7 @@ html[theme=dark] {
 }
 body {
 	width: inherit;
-	margin: 49px auto 0 auto;
+	margin: 45px auto 0 auto;
 	color: var(--main-text-color);
 	background-color: var(--main-background-color);
 	font-feature-settings: "kern";
@@ -66,6 +66,8 @@ body {
 	font-size: 12px;
 	min-width: 1090px;
 	max-width: 1090px;
+	line-height: unset;
+
 }
 div {
 	width: inherit;
@@ -168,7 +170,7 @@ th {
 }
 .project-name {
 	margin-bottom: 0px;
-	height: 51px;
+	height: 55px;
 	box-sizing: unset;
 	line-height: unset;
 }
@@ -193,7 +195,7 @@ div.sub-title-menu {
 }
 div.sub-title-menu table {
     width: 100%;
-    margin: 0 0 2px 0;
+    margin: 0 0 3px 0;
     padding: 0 0 0 0;
     color: var(--link-color);
     background-color: var(--main-background-color);
