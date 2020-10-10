@@ -58,7 +58,7 @@ html[theme=dark] {
 }
 body {
 	width: inherit;
-	margin: 44px auto 0 auto;
+	margin: 50px auto 0 auto;
 	color: var(--main-text-color);
 	background-color: var(--main-background-color);
 	font-feature-settings: "kern";
@@ -140,11 +140,11 @@ div.sub-title-menu {
     margin: 0 auto;
     font-size: 1.1rem;
 }
-div.body h1 {
+h1.title {
 	display: flex;
 	margin: 1em 0 0.25em 0;
 	font-family: "neon";
-	font-size: 28.8px;
+	font-size: 25px;
 	margin-top: 0;
 	font-weight: normal;
 	padding: 0;
@@ -168,13 +168,13 @@ th {
 /* menu css */
 div.sub-title-menu {
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 5px 0 0 0;
     padding: 0 0 0 0;
     color: var(--main-text-color);
     background-color: var(--main-background-color);
     font-feature-settings: "kern"on;
     font-family: "neon";
-    font-size: 16px;
+    font-size: 20px;
     min-width: 35%;
     max-width: 100%;
     border-bottom-width: 1px;
