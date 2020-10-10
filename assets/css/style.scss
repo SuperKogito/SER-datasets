@@ -58,7 +58,7 @@ html[theme=dark] {
 }
 body {
 	width: inherit;
-	margin: 50px auto 0 auto;
+	margin: 49px auto 0 auto;
 	color: var(--main-text-color);
 	background-color: var(--main-background-color);
 	font-feature-settings: "kern";
@@ -154,17 +154,28 @@ h1.title {
 	text-align: left;
 	color: var(--main-text-color);
 	font-feature-settings: "kern";
+	line-height: unset;
 }
 .page-header {
-    padding: 0 0;
-}
+	padding: 10px 0;
+	border-radius: 10px;
+	margin: 5px 0 0 0;}
 th {
     padding: 0px;
     text-align: left;
     padding-right: 5px;
     font-size: 16px;
 }
-
+.project-name {
+	margin-bottom: 0px;
+	height: 51px;
+	box-sizing: unset;
+	line-height: unset;
+}
+.project-tagline {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
 /* menu css */
 div.sub-title-menu {
     width: 100%;
@@ -182,7 +193,7 @@ div.sub-title-menu {
 }
 div.sub-title-menu table {
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 0 0 2px 0;
     padding: 0 0 0 0;
     color: var(--link-color);
     background-color: var(--main-background-color);
