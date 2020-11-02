@@ -1,1 +1,6 @@
+# ignore paths
 assets/* export-ignore
+assets/* linguist-vendored
+
+# classify css files as html
+*.css linguist-language=html
