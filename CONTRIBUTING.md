@@ -15,7 +15,7 @@ please feel free to add it.
 * Keep the table correctly aligned.
 * Send a Pull Request with a short explanation of why does it belong to this list.
 
-## Awesome Criteria
+## Criteria
 
 * The dataset must be related to the field of *Spoken Emotion Recognition*.
 * The dataset should not be a duplicate.
