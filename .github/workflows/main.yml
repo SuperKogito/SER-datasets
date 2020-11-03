@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: URLs-checker
-      uses: urlstechie/urlchecker-action@0.2.0
+      uses: urlstechie/urlchecker-action@0.2.1
       with:
         # A project to clone. If not provided, assumes already cloned in the present working directory.
         git_path: https://github.com/SuperKogito/SER-datasets
@@ -23,7 +23,7 @@ jobs:
         print_all: false
 
         # The timeout seconds to provide to requests, defaults to 5 seconds
-        timeout: 5
+        timeout: 9
 
         # How many times to retry a failed request (each is logged, defaults to 1)
         retry_count: 3
