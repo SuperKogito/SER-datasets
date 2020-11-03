@@ -15,9 +15,31 @@
     <meta charset="UTF-8">
 
 {% seo %}
+
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="Spoken Emotion Recognition Datasets">
+    <meta property="og:description" content="Tabular list of Spoken Emotion Recognition Datasets, that can be used for emotion recognition, identification or recognition in speech, audios and conversations.">
+    <meta property="og:image" content="assets/img/ser_img.png">
+    <meta property="og:url" content="https://superkogito.github.io/SER-datasets/">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <!--  Non-Essential, But Recommended -->
+
+    <meta property="og:site_name" content="SuperKogito">
+    <meta name="twitter:image:alt" content="Spoken Emotion Recognition">
+
+
+    <!--  Non-Essential, But Required for Analytics -->
+
+    <meta property="fb:app_id" content="your_app_id" />
+    <meta name="twitter:site" content="@website-username">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <link href="/SER-datasets/assets/img/favicon.ico" rel="shortcut icon"/>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -75,8 +97,6 @@
     </div>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
