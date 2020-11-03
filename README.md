@@ -44,7 +44,7 @@
 - Untitled, Technical university Munich, [document](https://mediatum.ub.tum.de/doc/1137841/780196.pdf)
 
 ## Contribution
-- All contributions are welcome! If you know a dataset that belongs here (see criteria below) but is not listed, please feel free to add it. For more information on Contributing, please refer to [CONTRIBUTION.md](CONTRIBUTION.md).
+- All contributions are welcome! If you know a dataset that belongs here (see criteria below) but is not listed, please feel free to add it. For more information on Contributing, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 -  If you notice a typo or a mistake, please [report this as an issue](https://github.com/SuperKogito/SER-datasets/issues/new) and help us improve the quality of this list.
 ## Disclaimer
