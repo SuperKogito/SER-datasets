@@ -195,7 +195,7 @@ div.sub-title-menu {
     border-bottom-style: solid;
 }
 div.sub-title-menu table {
-		display: table;
+    display: table;
     width: 100%;
     margin: 0 0 2px 0;
     padding: 0 0 0 0;
@@ -227,4 +227,10 @@ div.sub-title-menu a {
     padding-top: 0;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
+}
+.main-content table {
+    display: table;
+    width: 100%;
+    overflow: auto;
+    word-break: keep-all;
 }
