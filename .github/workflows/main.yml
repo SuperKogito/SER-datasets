@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: URLs-checker
-      uses: urlstechie/urlchecker-action@0.2.1
+      uses: urlstechie/urlchecker-action@0.2.3
       with:
         # A project to clone. If not provided, assumes already cloned in the present working directory.
         git_path: https://github.com/SuperKogito/SER-datasets
@@ -17,7 +17,7 @@ jobs:
         cleanup: true
 
         # A comma-separated list of file types to cover in the URL checks
-        file_types: .md
+        file_types: .*
 
         # Choose whether to include file with no URLs in the prints.
         print_all: false
