@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: URLs-checker
-      uses: urlstechie/urlchecker-action@0.2.3
+      uses: urlstechie/urlchecker-action@master
       with:
         # A project to clone. If not provided, assumes already cloned in the present working directory.
         git_path: https://github.com/SuperKogito/SER-datasets
