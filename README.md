@@ -42,7 +42,7 @@ The table is chronologically ordered and includes a description of the content o
 
 ## References
 
-- Swain, Monorama & Routray, Aurobinda & Kabisatpathy, Prithviraj, Databases, features and classifiers for speech emotion recognition: a review. International Journal of Speech Technology, [paper](https://www.researchgate.net/publication/322602563_Databases_features_and_classifiers_for_speech_emotion_recognition_a_review#pf19)
+- Swain, Monorama & Routray, Aurobinda & Kabisatpathy, Prithviraj, Databases, features and classifiers for speech emotion recognition: a review, International Journal of Speech Technology, [paper](https://www.researchgate.net/publication/322602563_Databases_features_and_classifiers_for_speech_emotion_recognition_a_review#pf19)
 - Dimitrios Ververidis and Constantine Kotropoulos, A State of the Art Review on Emotional Speech Databases, Artificial Intelligence & Information Analysis Laboratory, Department of Informatics Aristotle, University of Thessaloniki, [paper](http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Ververidis2003b.pdf)
 - A. Pramod Reddy and V. Vijayarajan, Extraction of Emotions from Speech-A Survey, VIT University, International Journal of Applied Engineering Research, [paper](https://www.ripublication.com/ijaer17/ijaerv12n16_46.pdf)
 - Emotional Speech Databases, [document](https://link.springer.com/content/pdf/bbm%3A978-90-481-3129-7%2F1.pdf)
