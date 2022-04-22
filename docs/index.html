@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Datasets &#8212; 🧠 SuperKogito/SER-datasets  documentation</title>
+    <script>
+      document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+      document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
+    </script>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx_contributors.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tree_graph.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/social_media_sharing.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="_static/js/main.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-133660046-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60" data-default-mode="">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="#">
+<p class="title">🧠 SuperKogito/SER-datasets</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/index.html">Home<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/projects.html">Projects<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/blog.html">Blog<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://superkogito.github.io/about.html">About Me<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/superkogito/ser-datasets" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+          
+            <div class="d-none d-md-block col-md-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Datasets
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributing">
+   Contributing
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disclaimer">
+   Disclaimer
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          <main class="col-12 col-md-9  py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="datasets">
+<h1>Datasets<a class="headerlink" href="#datasets" title="Permalink to this headline">#</a></h1>
+<p>Spoken Emotion Recognition Datasets: A collection of datasets for the purpose of emotion recognition/detection in speech.
+The table is chronologically ordered and includes a description of the content of each dataset along with the emotions included.</p>
+<table class="datatable table" id="id2">
+<caption><span class="caption-text">SER-Datasets</span><a class="headerlink" href="#id2" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Dataset</p></th>
+<th class="head"><p>Year</p></th>
+<th class="head"><p>Content</p></th>
+<th class="head"><p>Emotions</p></th>
+<th class="head"><p>Format</p></th>
+<th class="head"><p>Size</p></th>
+<th class="head"><p>Language</p></th>
+<th class="head"><p>Paper</p></th>
+<th class="head"><p>Access</p></th>
+<th class="head"><p>License</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://hltsingapore.github.io/ESD/">ESD</a></p></td>
+<td><p>2021</p></td>
+<td><p>29 hours, 3500 sentences, by 10 native English speakers and 10 native Chinese speakers.</p></td>
+<td><p>5 emotions: angry, happy, neutral, sad, and surprise.</p></td>
+<td><p>Audio,  Text</p></td>
+<td><p>2.4 GB (zip)</p></td>
+<td><p>English, Chinese</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/2010.14794.pdf">Seen And Unseen Emotional Style Transfer For Voice Conversion With A New Emotional Speech Dataset</a></p></td>
+<td><p>Open</p></td>
+<td><p>Academic License</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://zenodo.org/record/4134758">MuSe-CAR</a></p></td>
+<td><p>2021</p></td>
+<td><p>40 hours, 6,000+ recordings of 25,000+ sentences by 70+ English speakers (see db link for details).</p></td>
+<td><p>continuous emotion dimensions characterized using valence, arousal, and trustworthiness.</p></td>
+<td><p>Audio, Video, Text</p></td>
+<td><p>15 GB</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/2101.06053.pdf">The Multimodal Sentiment Analysis in Car Reviews (MuSe-CaR) Dataset: Collection, Insights and Improvements</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Academic License &amp; Commercial License</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html">MSP-Podcast corpus</a></p></td>
+<td><p>2020</p></td>
+<td><p>100 hours by over 100 speakers (see db link for details).</p></td>
+<td><p>This corpus is annotated with emotional labels using attribute-based descriptors (activation, dominance and valence) and categorical labels (anger, happiness, sadness, disgust, surprised, fear, contempt, neutral and other).</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="http://www.interspeech2020.org/index.php?m=content&amp;c=index&amp;a=show&amp;catid=290&amp;id=684">The MSP-Conversation Corpus</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Academic License &amp; Commercial License</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://github.com/emotiontts/emotiontts_open_db">emotiontts open db</a></p></td>
+<td><p>2020</p></td>
+<td><p>Recordings and their associated transcriptions by a diverse group of speakers.</p></td>
+<td><p>4 emotions: general, joy, anger, and sadness.</p></td>
+<td><p>Audio, Text</p></td>
+<td><p>–</p></td>
+<td><p>Korean</p></td>
+<td><p>–</p></td>
+<td><p>Partial Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://github.com/siddiquelatif/urdu-dataset">URDU-Dataset</a></p></td>
+<td><p>2020</p></td>
+<td><p>400 utterances by 38 speakers (27 male and 11 female).</p></td>
+<td><p>4 emotions: angry, happy, neutral, and sad.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.072 GB</p></td>
+<td><p>Urdu</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1812.10411.pdf">Cross Lingual Speech Emotion Recognition: Urdu vs. Western Languages</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.kaggle.com/a13x10/basic-arabic-vocal-emotions-dataset">BAVED</a></p></td>
+<td><p>2020</p></td>
+<td><p>1935 recording by 61 speakers (45 male and 16 female).</p></td>
+<td><p>3 levels of emotion.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.195 GB</p></td>
+<td><p>Arabic</p></td>
+<td><p>–</p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://zenodo.org/record/4066235">VIVAE</a></p></td>
+<td><p>2020</p></td>
+<td><p>non-speech, 1085 audio file by 12 speakers.</p></td>
+<td><p>non-speech 6 emotions: achievement, anger, fear, pain, pleasure, and surprise with 3 emotional intensities (low, moderate, strong, peak).</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>Restricted</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://db.sewaproject.eu/">SEWA</a></p></td>
+<td><p>2019</p></td>
+<td><p>more than 2000 minutes of audio-visual data of 398 people (201 male and 197 female) coming from 6 cultures.</p></td>
+<td><p>emotions are characterized using valence and arousal.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>Chinese, English, German, Greek, Hungarian and Serbian</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1901.02839.pdf">SEWA DB: A Rich Database for Audio-Visual Emotion and Sentiment Research in the Wild</a></p></td>
+<td><p>Restricted</p></td>
+<td><p><a class="reference external" href="https://db.sewaproject.eu/media/doc/eula.pdf">SEWA EULA</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://affective-meld.github.io/">MELD</a></p></td>
+<td><p>2019</p></td>
+<td><p>1400 dialogues and 14000 utterances from Friends TV series  by multiple speakers.</p></td>
+<td><p>7 emotions: Anger, disgust, sadness, joy, neutral, surprise and fear.  MELD also has sentiment (positive, negative and neutral) annotation  for each utterance.</p></td>
+<td><p>Audio, Video, Text</p></td>
+<td><p>10.1 GB</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1810.02508.pdf">MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://github.com/declare-lab/MELD/blob/master/LICENSE">MELD: GPL-3.0 License</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://github.com/mansourehk/ShEMO">ShEMO</a></p></td>
+<td><p>2019</p></td>
+<td><p>3000 semi-natural utterances, equivalent to 3 hours and 25 minutes of speech data from online radio plays by 87 native-Persian speakers.</p></td>
+<td><p>6 emotions: anger, fear, happiness, sadness, neutral and surprise.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.101 GB</p></td>
+<td><p>Persian</p></td>
+<td><p><a class="reference external" href="https://link.springer.com/article/10.1007/s10579-018-9427-x">ShEMO: a large-scale validated database for Persian speech emotion detection</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://zenodo.org/record/2544829">DEMoS</a></p></td>
+<td><p>2019</p></td>
+<td><p>9365 emotional and 332 neutral samples produced by 68 native speakers (23 females, 45 males).</p></td>
+<td><p>7/6 emotions: anger, sadness, happiness, fear, surprise, disgust, and the secondary emotion guilt.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>Italian</p></td>
+<td><p><a class="reference external" href="https://link.springer.com/epdf/10.1007/s10579-019-09450-y?author_access_token=5pf0w_D4k9z28TM6n4PbVPe4RwlQNchNByi7wbcMAY5hiA-aXzXNbZYfsMDDq2CdHD-w5ArAxIwlsk2nC_26pSyEAcu1xlKJ1c9m3JZj2ZlFmlVoCZUTcG3Hq2_2ozMLo3Hq3Y0CHzLdTxihQwch5Q%3D%3D">DEMoS: An Italian emotional speech corpus. Elicitation methods, machine learning, and perception</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>EULA: End User License Agreement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/">AESDD</a></p></td>
+<td><p>2018</p></td>
+<td><p>around 500 utterances by a diverse group of actors (over 5 actors) siumlating various emotions.</p></td>
+<td><p>5 emotions: anger, disgust, fear, happiness, and sadness.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.392 GB</p></td>
+<td><p>Greek</p></td>
+<td><p><a class="reference external" href="https://www.researchgate.net/publication/326005164_Speech_Emotion_Recognition_for_Performance_Interaction">Speech Emotion Recognition for Performance Interaction</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg!mYwUnI4K">Emov-DB</a></p></td>
+<td><p>2018</p></td>
+<td><p>Recordings for 4 speakers- 2 males and 2 females.</p></td>
+<td><p>The emotional styles are neutral, sleepiness, anger, disgust and amused.</p></td>
+<td><p>Audio</p></td>
+<td><p>5.88 GB</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1806.09514.pdf">The emotional voices database: Towards controlling the emotion dimension in voice generation systems</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://zenodo.org/record/1188976#.XrC7a5NKjOR">RAVDESS</a></p></td>
+<td><p>2018</p></td>
+<td><p>7356 recordings by 24 actors.</p></td>
+<td><p>7 emotions: calm, happy, sad, angry, fearful, surprise, and disgust</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>24.8 GB</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391">The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.kaggle.com/tli725/jl-corpus">JL corpus</a></p></td>
+<td><p>2018</p></td>
+<td><p>2400 recording of 240 sentences by 4 actors (2 males and 2 females).</p></td>
+<td><p>5 primary emotions: angry, sad, neutral, happy, excited. 5 secondary emotions: anxious, apologetic, pensive, worried, enthusiastic.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1349.pdf">An Open Source Emotional Speech Corpus for Human Robot Interaction Applications</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://zenodo.org/record/1478765">CaFE</a></p></td>
+<td><p>2018</p></td>
+<td><p>6 different sentences by 12 speakers (6 fmelaes + 6 males).</p></td>
+<td><p>7 emotions: happy, sad, angry, fearful, surprise, disgust and neutral. Each emotion is acted in 2 different intensities.</p></td>
+<td><p>Audio</p></td>
+<td><p>2 GB</p></td>
+<td><p>French (Canadian)</p></td>
+<td><p>–</p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://zenodo.org/record/1326428">EmoFilm</a></p></td>
+<td><p>2018</p></td>
+<td><p>1115 audio instances sentences extracted from various films.</p></td>
+<td><p>5 emotions: anger, contempt, happiness, fear, and sadness.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>English, Italian &amp; Spanish</p></td>
+<td><p><a class="reference external" href="https://pdfs.semanticscholar.org/e70e/fcf7f5b4c366a7b7e2c16267d7f7691a5391.pdf">Categorical vs Dimensional Perception of Italian Emotional Speech</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>EULA:End User License Agreement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.kaggle.com/suso172/arabic-natural-audio-dataset">ANAD</a></p></td>
+<td><p>2018</p></td>
+<td><p>1384 recording by multiple speakers.</p></td>
+<td><p>3 emotions: angry, happy, surprised.</p></td>
+<td><p>Audio</p></td>
+<td><p>2 GB</p></td>
+<td><p>Arabic</p></td>
+<td><p><a class="reference external" href="https://data.mendeley.com/datasets/xm232yxf7t/1">Arabic Natural Audio Dataset</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://zenodo.org/record/3727593">EmoSynth</a></p></td>
+<td><p>2018</p></td>
+<td><p>144 audio file labelled by 40 listeners.</p></td>
+<td><p>Emotion (no speech) defined in regard of valence and arousal.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.1034 GB</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/3243274.3243277">The Perceived Emotion of Isolated Synthetic Audio: The EmoSynth Dataset and Results</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.amir-zadeh.com/datasets">CMU-MOSEI</a></p></td>
+<td><p>2018</p></td>
+<td><p>65 hours of annotated video from more than 1000 speakers and 250 topics.</p></td>
+<td><p>6 Emotion (happiness, sadness, anger,fear, disgust, surprise) + Likert scale.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1802.00923.pdf">Multi-attention Recurrent Network for Human Communication Comprehension</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://github.com/A2Zadeh/CMU-MultimodalSDK/blob/master/LICENSE.txt">CMU-MOSEI License</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.amir-zadeh.com/datasets">CMU-MOSI</a></p></td>
+<td><p>2017</p></td>
+<td><p>2199 opinion utterances with annotated sentiment.</p></td>
+<td><p>Sentiment annotated between very negative to very positive in seven Likert steps.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://arxiv.org/pdf/1802.00923.pdf">Multi-attention Recurrent Network for Human Communication Comprehension</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://github.com/A2Zadeh/CMU-MultimodalSDK/blob/master/LICENSE.txt">CMU-MOSI License</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html">MSP-IMPROV</a></p></td>
+<td><p>2017</p></td>
+<td><p>20 sentences by 12 actors.</p></td>
+<td><p>4 emotions: angry, sad, happy, neutral, other, without agreement</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://ecs.utdallas.edu/research/researchlabs/msp-lab/publications/Busso_2017.pdf">MSP-IMPROV: An Acted Corpus of Dyadic Interactions to Study Emotion Perception</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Academic License &amp; Commercial License</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://github.com/CheyneyComputerScience/CREMA-D">CREMA-D</a></p></td>
+<td><p>2017</p></td>
+<td><p>7442 clip of 12 sentences spoken by 91 actors (48 males and 43 females).</p></td>
+<td><p>6 emotions: angry, disgusted, fearful, happy, neutral, and sad</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/">CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://github.com/CheyneyComputerScience/CREMA-D/blob/master/LICENSE.txt">Open Database License &amp; Database Content License</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://espace.library.uq.edu.au/view/UQ:446541">Example emotion videos used in investigation of emotion perception in schizophrenia</a></p></td>
+<td><p>2017</p></td>
+<td><p>6 videos:Two example videos from each emotion category (angry, happy and neutral) by one female speaker.</p></td>
+<td><p>3 emotions: angry, happy and neutral.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>0.063 GB</p></td>
+<td><p>English</p></td>
+<td><p>–</p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://guides.library.uq.edu.au/deposit_your_data/terms_and_conditions">Permitted Non-commercial Re-use with Acknowledgment</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://voice.fub.it/activities/corpora/emovo/index.html">EMOVO</a></p></td>
+<td><p>2014</p></td>
+<td><p>6 actors  who  played  14  sentences.</p></td>
+<td><p>6 emotions: disgust, fear, anger, joy, surprise, sadness.</p></td>
+<td><p>Audio</p></td>
+<td><p>0.355 GB</p></td>
+<td><p>Italian</p></td>
+<td><p><a class="reference external" href="https://core.ac.uk/download/pdf/53857389.pdf">EMOVO Corpus: an Italian Emotional Speech Database</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://diuf.unifr.ch/main/diva/recola/download.html">RECOLA</a></p></td>
+<td><p>2013</p></td>
+<td><p>3.8 hours of recordings by 46 participants.</p></td>
+<td><p>negative and positive sentiment (valence and arousal).</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="https://drive.google.com/file/d/0B2V_I9XKBODhNENKUnZWNFdVXzQ/view">Introducing the RECOLA Multimodal Corpus of Remote Collaborative and Affective Interactions</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Academic License &amp; Commercial License</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.unige.ch/cisa/gemep">GEMEP corpus</a></p></td>
+<td><p>2012</p></td>
+<td><p>Videos10 actors portraying 10 states.</p></td>
+<td><p>12 emotions: amusement, anxiety, cold anger (irritation), despair, hot anger (rage),  fear (panic), interest, joy (elation), pleasure(sensory), pride, relief, and sadness. Plus, 5 additional emotions: admiration, contempt, disgust, surprise, and tenderness.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>French</p></td>
+<td><p><a class="reference external" href="https://www.researchgate.net/publication/51796867_Introducing_the_Geneva_Multimodal_Expression_Corpus_for_Experimental_Research_on_Emotion_Perception">Introducing the Geneva Multimodal Expression Corpus for Experimental Research on Emotion Perception</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://sites.google.com/site/ogcorpus/home/en">OGVC</a></p></td>
+<td><p>2012</p></td>
+<td><p>9114 spontaneous utterances and 2656 acted utterances by 4 professional actors (two male and two female).</p></td>
+<td><p>9 emotional states: fear, surprise, sadness, disgust, anger, anticipation, joy, acceptance and the neutral state.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>Japanese</p></td>
+<td><p><a class="reference external" href="https://www.jstage.jst.go.jp/article/ast/33/6/33_E1175/_pdf">Naturalistic emotional speech collectionparadigm with online game and its psychological and acoustical assessment</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/">LEGO corpus</a></p></td>
+<td><p>2012</p></td>
+<td><p>347 dialogs with 9,083 system-user exchanges.</p></td>
+<td><p>Emotions classified as garbage, non-angry, slightly angry and very angry.</p></td>
+<td><p>Audio</p></td>
+<td><p>1.1 GB</p></td>
+<td><p>–</p></td>
+<td><p><a class="reference external" href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/333_Paper.pdf">A Parameterized and Annotated Spoken Dialog Corpus of the CMU Let’s Go Bus Information System</a></p></td>
+<td><p>Open</p></td>
+<td><p>Lincense available with the data. Free of charges for research purposes only.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://semaine-db.eu/">SEMAINE</a></p></td>
+<td><p>2012</p></td>
+<td><p>95 dyadic conversations from 21 subjects. Each subject converses with another playing one of four characters with emotions.</p></td>
+<td><p>5 FeelTrace annotations: activation, valence, dominance, power, intensity</p></td>
+<td><p>Audio, Video, Text</p></td>
+<td><p>104 GB</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://ieeexplore.ieee.org/document/5959155">The SEMAINE Database: Annotated Multimodal Records of Emotionally Colored Conversations between a Person and a Limited Agent</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Academic EULA</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://kahlan.eps.surrey.ac.uk/savee/Database.html">SAVEE</a></p></td>
+<td><p>2011</p></td>
+<td><p>480 British English utterances by 4 males actors.</p></td>
+<td><p>7 emotions: anger, disgust, fear, happiness, sadness, surprise and neutral.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>–</p></td>
+<td><p>English (British)</p></td>
+<td><p><a class="reference external" href="http://personal.ee.surrey.ac.uk/Personal/P.Jackson/pub/ma10/HaqJackson_MachineAudition10_approved.pdf">Multimodal Emotion Recognition</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Free of charges for research purposes only.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://tspace.library.utoronto.ca/handle/1807/24487">TESS</a></p></td>
+<td><p>2010</p></td>
+<td><p>2800 recording by 2 actresses.</p></td>
+<td><p>7 emotions: anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://www.semanticscholar.org/paper/BEHAVIOURAL-FINDINGS-FROM-THE-TORONTO-EMOTIONAL-SET-Dupuis-Pichora-Fuller/d7f746b3aee801a353b6929a65d9a34a68e71c6f/figure/2">BEHAVIOURAL FINDINGS FROM THE TORONTO EMOTIONAL SPEECH SET</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/">EEKK</a></p></td>
+<td><p>2007</p></td>
+<td><p>26 text passage read by 10 speakers.</p></td>
+<td><p>4 main emotions: joy, sadness, anger and neutral.</p></td>
+<td><p>–</p></td>
+<td><p>0.352 GB</p></td>
+<td><p>Estonian</p></td>
+<td><p><a class="reference external" href="https://www.researchgate.net/publication/261724574_Estonian_Emotional_Speech_Corpus_Release_1">Estonian Emotional Speech Corpus</a></p></td>
+<td><p>Open</p></td>
+<td><p><a class="reference external" href="https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/">CC-BY license</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://sail.usc.edu/iemocap/iemocap_release.htm">IEMOCAP</a></p></td>
+<td><p>2007</p></td>
+<td><p>12 hours of audiovisual data by 10 actors.</p></td>
+<td><p>5 emotions: happiness, anger, sadness, frustration and neutral.</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>English</p></td>
+<td><p><a class="reference external" href="https://sail.usc.edu/iemocap/Busso_2008_iemocap.pdf">IEMOCAP: Interactive emotional dyadic motion capture database</a></p></td>
+<td><p>Restricted</p></td>
+<td><p><a class="reference external" href="https://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf">IEMOCAP license</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://research.nii.ac.jp/src/en/Keio-ESD.html">Keio-ESD</a></p></td>
+<td><p>2006</p></td>
+<td><p>A set of human speech with vocal emotion spoken by a Japanese male speaker.</p></td>
+<td><p>47 emotions including angry, joyful, disgusting, downgrading, funny,  worried, gentle, relief, indignation, shameful, etc.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>Japanese</p></td>
+<td><p><a class="reference external" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.8899&amp;rep=rep1&amp;type=pdf">EMOTIONAL SPEECH SYNTHESIS USING SUBSPACE CONSTRAINTS IN PROSODY</a></p></td>
+<td><p>Restricted</p></td>
+<td><p>Available for research purposes only</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://emodb.bilderbar.info/index-1280.html">EMO-DB</a></p></td>
+<td><p>2005</p></td>
+<td><p>800 recording spoken by 10 actors (5 males and 5 females).</p></td>
+<td><p>7 emotions: anger, neutral, fear, boredom, happiness, sadness, disgust.</p></td>
+<td><p>Audio</p></td>
+<td><p>–</p></td>
+<td><p>German</p></td>
+<td><p><a class="reference external" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8506&amp;rep=rep1&amp;type=pdf">A Database of German Emotional Speech</a></p></td>
+<td><p>Open</p></td>
+<td><p>–</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip">eNTERFACE05</a></p></td>
+<td><p>2005</p></td>
+<td><p>Videos by 42 subjects, coming from 14 different nationalities.</p></td>
+<td><p>6 emotions: anger, fear, surprise, happiness, sadness and disgust.</p></td>
+<td><p>Audio, Video</p></td>
+<td><p>0.8 GB</p></td>
+<td><p>German</p></td>
+<td></td>
+<td><p>Open</p></td>
+<td><p>Free of charges for research purposes only</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://kom.aau.dk/~tb/speech/Emotions/">DES</a></p></td>
+<td><p>2002</p></td>
+<td><p>4 speakers (2 males and 2 females).</p></td>
+<td><p>5 emotions: neutral,  surprise,  happiness,  sadness  and  anger</p></td>
+<td><p>–</p></td>
+<td><p>–</p></td>
+<td><p>Danish</p></td>
+<td><p><a class="reference external" href="http://kom.aau.dk/~tb/speech/Emotions/des.pdf">Documentation of the Danish Emotional Speech Database</a></p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h1>
+<ul class="simple">
+<li><p>Swain, Monorama &amp; Routray, Aurobinda &amp; Kabisatpathy, Prithviraj, Databases, features and classifiers for speech emotion recognition: a review, International Journal of Speech Technology, <a class="reference external" href="https://www.researchgate.net/publication/322602563_Databases_features_and_classifiers_for_speech_emotion_recognition_a_review#pf19">paper1</a></p></li>
+<li><p>Dimitrios Ververidis and Constantine Kotropoulos, A State of the Art Review on Emotional Speech Databases, Artificial Intelligence &amp; Information Analysis Laboratory, Department of Informatics Aristotle, University of Thessaloniki, <a class="reference external" href="http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Ververidis2003b.pdf">paper2</a></p></li>
+<li><p>Florian Eyben, Anton Batliner and Bjoern Schulle, Towards a standard set of acoustic features for the processing of emotion in speech, Acoustical society of America, <a class="reference external" href="https://asa.scitation.org/doi/pdf/10.1121/1.4739483">paper3</a></p></li>
+<li><p>Aeluri Pramod Reddy and V Vijayarajan, Extraction of Emotions from Speech-A Survey, VIT University, International Journal of Applied Engineering Research, <a class="reference external" href="https://www.ripublication.com/ijaer17/ijaerv12n16_46.pdf">paper4</a></p></li>
+<li><p>Emotional Speech Databases, <a class="reference external" href="https://link.springer.com/content/pdf/bbm%3A978-90-481-3129-7%2F1.pdf">document</a></p></li>
+<li><p>Expressive Synthetic Speech, <a class="reference external" href="http://emosamples.syntheticspeech.de/">http://emosamples.syntheticspeech.de/</a></p></li>
+</ul>
+</section>
+<section id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">#</a></h1>
+<p>All contributions are welcome!
+If you know a dataset that belongs here (see <a class="reference external" href="https://github.com/SuperKogito/SER-datasets/blob/master/CONTRIBUTING.md#criteria">criteria</a>) but is not listed, please feel free to add it.
+For more information on Contributing, please refer to <a class="reference external" href="https://github.com/SuperKogito/SER-datasets/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+<p>If you notice a typo or a mistake, please <a class="reference external" href="https://github.com/SuperKogito/SER-datasets/issues/new">report this as an issue</a> and help us improve the quality of this list.</p>
+</section>
+<section id="disclaimer">
+<h1>Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this headline">#</a></h1>
+<p>The maintainer and the contributors try their best to keep this list up-to-date, and to only include working links (using automated verification with the help of the <a class="reference external" href="https://github.com/marketplace/actions/urlchecker-action">urlchecker-action</a>).
+However, we cannot guarantee that all listed links are up-to-date. Read more in <a class="reference external" href="https://github.com/SuperKogito/SER-datasets/blob/master/DISCLAIMER.md">DISCLAIMER.md</a>.</p>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+      <!-- Site footer -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <ul class="footer-links">
+              <li>
+                    &copy; Copyright 2020-2022, Ayoub Malek.<br/>
+                  This blog is created using <a href="http://sphinx-doc.org/">Sphinx</a> and the tools from <a href="https://executablebooks.org/en/latest/">The Executable Book Project</a>.<br/>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/privacy_policy.html">Privacy Policy</a></li>
+              <li><a href="https://superkogito.github.io/policy/cookies_policy.html">Cookies policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/terms_and_conditions.html">Terms and conditions</a></li>
+              <li><a href="https://superkogito.github.io/policy/disclaimer.html">Disclaimer</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-2">
+            <ul class="footer-links">
+              <li><a href="https://superkogito.github.io/policy/contribute.html">Contribute</a></li>
+              <li><a href="https://superkogito.github.io/sitemap.xml">Sitemap</a></li>
+            </ul>
+          </div>
+
+    </div>
+  </footer>
+  </body>
+</html>
