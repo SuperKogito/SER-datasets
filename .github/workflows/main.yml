@@ -1,4 +1,4 @@
-name: Check URLs
+name: Urls checking
 
 on: [push]
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: URLs-checker
+    - name: Urlshecker
       uses: urlstechie/urlchecker-action@master
       with:
         # A project to clone. If not provided, assumes already cloned in the present working directory.
