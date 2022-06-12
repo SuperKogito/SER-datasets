@@ -45,6 +45,7 @@ However, we cannot guarantee that all listed links are up-to-date. Read more in 
 
 .. datasets
 
+.. _`MESD`: https://data.mendeley.com/datasets/cy34mh68j9/5
 .. _`ASVP-ESD`: https://www.kaggle.com/datasets/dejolilandry/asvpesdspeech-nonspeech-emotional-utterances
 .. _`ESD`: https://hltsingapore.github.io/ESD/
 .. _`MuSe-CAR`: https://zenodo.org/record/4134758
@@ -102,6 +103,7 @@ However, we cannot guarantee that all listed links are up-to-date. Read more in 
 
 .. papers
 
+.. _`The Mexican Emotional Speech Database (MESD): elaboration and assessment based on machine learning`: https://pubmed.ncbi.nlm.nih.gov/34891601/
 .. _`Seen And Unseen Emotional Style Transfer For Voice Conversion With A New Emotional Speech Dataset`: https://arxiv.org/pdf/2010.14794.pdf
 .. _`The Multimodal Sentiment Analysis in Car Reviews (MuSe-CaR) Dataset: Collection, Insights and Improvements`: https://arxiv.org/pdf/2101.06053.pdf
 .. _`The MSP-Conversation Corpus`: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=290&id=684
