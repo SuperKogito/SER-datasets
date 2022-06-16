@@ -58,6 +58,7 @@ However, we cannot guarantee that all listed links are up-to-date. Read more in 
 .. _`MELD`: https://affective-meld.github.io/
 .. _`ShEMO`: https://github.com/mansourehk/ShEMO
 .. _`DEMoS`: https://zenodo.org/record/2544829
+.. _`VERBO`: https://sites.google.com/view/verbodatabase/home
 .. _`AESDD`: http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/
 .. _`Emov-DB`: https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg!mYwUnI4K
 .. _`RAVDESS`: https://zenodo.org/record/1188976#.XrC7a5NKjOR
@@ -116,6 +117,7 @@ However, we cannot guarantee that all listed links are up-to-date. Read more in 
 .. _`EMOTIONAL SPEECH SYNTHESIS USING SUBSPACE CONSTRAINTS IN PROSODY`: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.8899&rep=rep1&type=pdf
 .. _`Naturalistic emotional speech collectionparadigm with online game and its psychological and acoustical assessment`: https://www.jstage.jst.go.jp/article/ast/33/6/33_E1175/_pdf
 .. _`EMOVO Corpus: an Italian Emotional Speech Database`: https://core.ac.uk/download/pdf/53857389.pdf
+.. _`VERBO: Voice Emotion Recognition dataBase in Portuguese Language`: https://thescipub.com/pdf/jcssp.2018.1420.1430.pdf
 .. _`The eNTERFACE’05 Audio-Visual Emotion Database`: http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Martin06a.pdf
 .. _`Arabic Natural Audio Dataset`: https://data.mendeley.com/datasets/xm232yxf7t/1
 .. _`Introducing the Geneva Multimodal Expression Corpus for Experimental Research on Emotion Perception`: https://www.researchgate.net/publication/51796867_Introducing_the_Geneva_Multimodal_Expression_Corpus_for_Experimental_Research_on_Emotion_Perception
