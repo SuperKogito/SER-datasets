@@ -23,8 +23,19 @@
       {% endif %}
     {% endfor %}
 
-    <!-- Google Analytics -->
-    {{ generate_google_analytics_script(id=theme_google_analytics_id) }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPWJJB9TRK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GPWJJB9TRK');
+    </script>
+
+    <!-- Google Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8554106698532684" crossorigin="anonymous"></script>
+
 {%- endblock %}
 
 {# Silence the sidebar's, relbar's #}
