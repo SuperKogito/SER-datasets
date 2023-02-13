@@ -22,3 +22,8 @@ please feel free to add it.
 * The dataset should not be provided in an active PR.
 * The dataset should be available for researchers for free.
 * The information about the dataset must be accessible for verification.
+
+## How to contribute
+First go to `src/` using `cd src`. Then add a the dictionary / part json data of the contributed dataset to `src/ser-datasets`. 
+Make sure the json is valid, then run the `python generate_files.py` to update the restructured text file, csv file and the README.
+That's it, Congrats! and thank you for your contribution. Now open a PR with your changes. I will review it and then publish the results :))
