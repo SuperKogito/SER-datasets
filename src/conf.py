@@ -36,7 +36,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx_contributors',
+    #'sphinx_contributors',
     'crate.sphinx.csv',
 ]
 
@@ -59,7 +59,6 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "github_url": "https://github.com/superkogito/ser-datasets",
     "search_bar_text": "Search this site...",
-    "google_analytics_id": "UA-133660046-1",
 
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
