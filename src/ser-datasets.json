@@ -13,6 +13,20 @@
         "Paper-link": "https://pubmed.ncbi.nlm.nih.gov/34891601/",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
+    "LSSED": {
+	"Year": 2021,
+	"Content": "Large Scale Spanish Emotional Speech Database",
+	"Emotions": "8 emotions provides Spanish spoken utterances for anger, boredom, disgust, fear, happiness, neutral, sadness, and surprise.",
+	"Format": "Audio",
+	"Size": "90 GB",
+	"Language": "Spanish (Castilian)",
+	"Paper": "LSSED: A Large-Scale Spanish Emotional Speech Database for Speech Processing and Machine Learning",
+	"Access": "Open",
+	"License": "CC BY-SA 4.0",
+	"Dataset-link": "https://github.com/tobefans/LSSED",
+	"Paper-link": "https://www.mdpi.com/1424-8220/21/23/6985",
+	"License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
     "MLEnd": {
         "Year": 2021,
         "Content": "~32700 audio recordings files produced by 154 speakers. Each audio recording corresponds to one English numeral (from \"zero\" to \"billion\")",
