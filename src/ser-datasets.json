@@ -83,6 +83,20 @@
         "Paper-link": "http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=290&id=684",
         "License-link": "Academic License & Commercial License"
     },
+    "BEASC": {
+        "Year": 2020,
+        "Content": "Bangla Emotional Audio-Speech Corpus",
+        "Emotions": "6 emotions provides Bangla spoken utterances for anger, happiness, sadness, fear, surprise, and neutral.",
+        "Format": "Audio",
+        "Size": "9 GB",
+        "Language": "Bangla",
+        "Paper": "BEASC: Bangla Emotional Audio-Speech Corpus - A Speech Emotion Recognition Corpus for the Low-Resource Bangla Language",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://doi.org/10.6084/m9.figshare.12498033",
+        "Paper-link": "https://www.mdpi.com/2076-3417/10/11/3704",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "emotiontts open db": {
         "Year": 2020,
         "Content": "Recordings and their associated transcriptions by a diverse group of speakers.",
