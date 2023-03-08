@@ -13,6 +13,20 @@
         "Paper-link": "https://pubmed.ncbi.nlm.nih.gov/34891601/",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
+    "SyntAct": {
+        "Year": 2022,
+        "Content": "SyntAct",
+        "Emotions": " a synthesized database of three basic emotions and neutral expression based on rule-based manipulation for a diphone synthesizer which we release to the public",
+        "Format": "Audio",
+        "Size": "941 MB",
+        "Language": "German",
+	"Paper": "SyntAct: A Synthesized Database of Basic Emotions",
+	"Access": "Open",
+	"License": "CC BY-SA 4.0",
+	"Dataset-link": "https://zenodo.org/record/6573016#.ZAjy_9LMJpj",
+	"Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
+	"License-link": "https://creativecommons.org/licenses/by/4.0"
+    },
     "MLEnd": {
         "Year": 2021,
         "Content": "~32700 audio recordings files produced by 154 speakers. Each audio recording corresponds to one English numeral (from \"zero\" to \"billion\")",
