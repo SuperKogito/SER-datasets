@@ -15,8 +15,8 @@
     },
     "SyntAct": {
         "Year": 2022,
-        "Content": "SyntAct",
-        "Emotions": " a synthesized database of three basic emotions and neutral expression based on rule-based manipulation for a diphone synthesizer which we release to the public",
+        "Content": "Synthesized database of three basic emotions and neutral expression based on rule-based manipulation for a diphone synthesizer which we release to the public ",
+        "Emotions": "997 utterances including 6 emotions: angry, bored, happy, neutral, sad and scared",
         "Format": "Audio",
         "Size": "941 MB",
         "Language": "German",
