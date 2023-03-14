@@ -20,12 +20,12 @@
         "Format": "Audio",
         "Size": "941 MB",
         "Language": "German",
-	"Paper": "SyntAct: A Synthesized Database of Basic Emotions",
-	"Access": "Open",
-	"License": "CC BY-SA 4.0",
-	"Dataset-link": "https://zenodo.org/record/6573016#.ZAjy_9LMJpj",
-	"Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
-	"License-link": "https://creativecommons.org/licenses/by/4.0"
+	      "Paper": "SyntAct: A Synthesized Database of Basic Emotions",
+	      "Access": "Open",
+	      "License": "CC BY-SA 4.0",
+	      "Dataset-link": "https://zenodo.org/record/6573016#.ZAjy_9LMJpj",
+	      "Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
+	      "License-link": "https://creativecommons.org/licenses/by/4.0"
     },
     "MLEnd": {
         "Year": 2021,
