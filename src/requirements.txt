@@ -35,7 +35,7 @@ pytz==2022.1
 PyYAML==6.0
 pyzmq==24.0.1
 readme-renderer==35.0
-requests==2.27.1
+requests==2.31.0
 requests-toolbelt==0.9.1
 rich==12.5.1
 SecretStorage==3.3.2
