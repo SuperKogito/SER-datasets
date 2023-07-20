@@ -28,7 +28,7 @@ pybtex==0.24.0
 pybtex-docutils==1.0.1
 pycparser==2.21
 pydata-sphinx-theme==0.8.1
-Pygments==2.12.0
+Pygments==2.15.0
 pyparsing==3.0.8
 python-dateutil==2.8.2
 pytz==2022.1
