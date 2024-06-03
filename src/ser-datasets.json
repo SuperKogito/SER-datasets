@@ -83,6 +83,48 @@
         "Paper-link": "https://arxiv.org/pdf/2101.06053.pdf",
         "License-link": "Academic License & Commercial License"
     },
+    "THAI SER": {
+        "Year": 2021,
+        "Content": "The recordings are 41 hours, 36 minutes long (27,854 utterances), and were performed by 200 professional actors (112 female, 88 male).",
+        "Emotions": "5 main emotions assigned to actors: Neutral, Anger, Happiness, Sadness, and Frustration.",
+        "Format": "Audio",
+        "Size": "12 GB",
+        "Language": "Thai",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://github.com/vistec-AI/dataset-releases/releases/tag/v1",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "French Emotional Speech Database - Oréau": {
+        "Year": 2020,
+        "Content": "79 utterances with 10 to 13 utterances pro emotion by 32 non-professional speakers.",
+        "Emotions": "7 emotions: sadness, anger, disgust, fear, surprise, joy, neutral.",
+        "Format": "Audio",
+        "Size": "0.264 GB",
+        "Language": "French",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/4405783#.Yqjq_9JBxph",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "Att-HACK ": {
+        "Year": 2020,
+        "Content": "25 speakers interpreting 100 utterances in 4 social attitudes, with 3-5 repetitions each per attitude for a total of around 30 hours of speech.",
+        "Emotions": "expressive speech in French, 100 phrases with multiple versions (3 to 5) in four social attitudes (friendly, distant, dominant and seductive).",
+        "Format": "Audio",
+        "Size": "6.6 GB",
+        "Language": "French",
+        "Paper": "Att-HACK: An Expressive Speech Database with Social Attitudes",
+        "Access": "Open",
+        "License": "CC BY-NC-ND 4.0",
+        "Dataset-link": "http://www.openslr.org/88/",
+        "Paper-link": "https://arxiv.org/abs/2004.04410",
+        "License-link": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
     "MSP-Podcast corpus": {
         "Year": 2020,
         "Content": "100 hours by over 100 speakers (see db link for details).",
