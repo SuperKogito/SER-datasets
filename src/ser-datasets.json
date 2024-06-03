@@ -95,7 +95,21 @@
         "License": "CC BY-SA 4.0",
         "Dataset-link": "https://github.com/vistec-AI/dataset-releases/releases/tag/v1",
         "Paper-link": "--",
-        "License-link": "https://creativecommons.org/licenses/by/4.0"
+        "License-link": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "French Emotional Speech Database - Oréau": {
+        "Year": 2020,
+        "Content": "79 utterances with 10 to 13 utterances pro emotion by 32 non-professional speakers.",
+        "Emotions": "7 emotions: sadness, anger, disgust, fear, surprise, joy, neutral.",
+        "Format": "Audio",
+        "Size": "0.264 GB",
+        "Language": "French",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/4405783#.Yqjq_9JBxph",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
     "Att-HACK ": {
         "Year": 2020,
