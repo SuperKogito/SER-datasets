@@ -83,6 +83,20 @@
         "Paper-link": "https://arxiv.org/pdf/2101.06053.pdf",
         "License-link": "Academic License & Commercial License"
     },
+    "Att-HACK ": {
+        "Year": 2020,
+        "Content": "25 speakers interpreting 100 utterances in 4 social attitudes, with 3-5 repetitions each per attitude for a total of around 30 hours of speech.",
+        "Emotions": "expressive speech in French, 100 phrases with multiple versions (3 to 5) in four social attitudes (friendly, distant, dominant and seductive).",
+        "Format": "Audio",
+        "Size": "6.6 GB",
+        "Language": "French",
+        "Paper": "Att-HACK: An Expressive Speech Database with Social Attitudes",
+        "Access": "Open",
+        "License": "CC BY-NC-ND 4.0",
+        "Dataset-link": "http://www.openslr.org/88/",
+        "Paper-link": "https://arxiv.org/abs/2004.04410",
+        "License-link": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
     "MSP-Podcast corpus": {
         "Year": 2020,
         "Content": "100 hours by over 100 speakers (see db link for details).",
