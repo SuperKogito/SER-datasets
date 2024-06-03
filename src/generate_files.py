@@ -1,6 +1,6 @@
 
 import csv
-import json 
+import json
 from tabulate import tabulate
 
 
@@ -13,7 +13,8 @@ with open(json_file_path, 'r') as j:
 keys = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License", "Dataset-link", "Paper-link", "License-link"]
 header = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License"]
 
-md_1 = """***Spoken Emotion Recognition Datasets:*** *A collection of datasets (count=42) for the purpose of emotion recognition/detection in speech.
+md_0 = """***Spoken Emotion Recognition Datasets:*** *A collection of datasets (count={0})""".format(len(content.items()))
+md_1 = """ for the purpose of emotion recognition/detection in speech.
 The table is chronologically ordered and includes a description of the content of each dataset along with the emotions included.
 The table can be browsed, sorted and searched under https://superkogito.github.io/SER-datasets/*
 """
@@ -49,16 +50,17 @@ def format_md_link(label, link):
 table = []
 for key, values in content.items():
     # add elements to row
-    row = [format_md_link(key, values["Dataset-link"])] 
+    row = [format_md_link(key, values["Dataset-link"])]
     row += [values[k] for k in ["Year", "Content", "Emotions", "Format", "Size", "Language"]]
-    row += [format_md_link(values["Paper"], values["Paper-link"]), values["Access"], format_md_link(values["License"], values["License-link"])] 
-    
+    row += [format_md_link(values["Paper"], values["Paper-link"]), values["Access"], format_md_link(values["License"], values["License-link"])]
+
     # add styles and add row to table
-    row = ["<sub>{0}</sub>".format(e) for e in row] 
+    row = ["<sub>{0}</sub>".format(e) for e in row]
     table.append(row)
 
 table = tabulate(table, keys, tablefmt="pipe")
 with open("../README.md", "w") as f:
+    f.write(md_0)
     f.write(md_1)
     f.write(table)
     f.write(md_2)
@@ -73,14 +75,14 @@ def format_rst_link(label, link):
 table = []
 for key, values in content.items():
     # add elements to row
-    row = [format_rst_link(key, values["Dataset-link"])] 
+    row = [format_rst_link(key, values["Dataset-link"])]
     row += [values[k] for k in ["Year", "Content", "Emotions", "Format", "Size", "Language"]]
     row += [format_rst_link(values["Paper"], values["Paper-link"]), values["Access"]]
-    row += [format_rst_link(values["License"], values["License-link"])] 
+    row += [format_rst_link(values["License"], values["License-link"])]
 
     # format and add row to csv
-    table.append(row) 
-    
+    table.append(row)
+
 with open('ser-datasets.csv', 'w', encoding='UTF8', newline='') as f:
     writer = csv.writer(f)
 
