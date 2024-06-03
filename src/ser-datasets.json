@@ -1,4 +1,18 @@
 {
+    "Quechua-SER": {
+        "Year": 2022,
+        "Content": "12420 audio recordings (~15 hours) and their transcriptions by 7 native speakers.",
+        "Emotions": "Emotional labels using dimensions: valence, arousal, and dominance.",
+        "Format": "Audio",
+        "Size": "3.53 GB",
+        "Language": "Quechua Collao",
+        "Paper": "A speech corpus of Quechua Collao for automatic dimensional emotion recognition",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://figshare.com/articles/media/Quechua_Collao_for_Speech_Emotion_Recognition/20292516",
+        "Paper-link": "https://www.nature.com/articles/s41597-022-01855-9",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "MESD": {
         "Year": 2022,
         "Content": "864 audio files of single-word emotional utterances with Mexican cultural shaping.",
