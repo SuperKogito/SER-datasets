@@ -83,6 +83,20 @@
         "Paper-link": "https://arxiv.org/pdf/2101.06053.pdf",
         "License-link": "Academic License & Commercial License"
     },
+    "THAI SER": {
+        "Year": 2021,
+        "Content": "The recordings are 41 hours, 36 minutes long (27,854 utterances), and were performed by 200 professional actors (112 female, 88 male).",
+        "Emotions": "5 main emotions assigned to actors: Neutral, Anger, Happiness, Sadness, and Frustration.",
+        "Format": "Audio",
+        "Size": "12 GB",
+        "Language": "Thai",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://github.com/vistec-AI/dataset-releases/releases/tag/v1",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0"
+    },
     "Att-HACK ": {
         "Year": 2020,
         "Content": "25 speakers interpreting 100 utterances in 4 social attitudes, with 3-5 repetitions each per attitude for a total of around 30 hours of speech.",
