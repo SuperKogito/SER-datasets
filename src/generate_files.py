@@ -43,7 +43,10 @@ md_2 = """## References
 
 print(" -> Generate Markdown Text")
 def format_md_link(label, link):
-    res = "[{0}]({1})".format(label, link) if "http" in link else label
+    if link and "http" in link:
+        res = "[{0}]({1})".format(label, link)
+    else:
+        res = label
     return res
 
 # tabulate
@@ -68,7 +71,10 @@ with open("../README.md", "w") as f:
 
 print(" -> Generate Restructured Text")
 def format_rst_link(label, link):
-    res = "`{0} <{1}>`_".format(label, link) if "http" in link else label
+    if link and "http" in link:
+        res = "`{0} <{1}>`_".format(label, link)
+    else:
+        res = label
     return res
 
 # tabulate
