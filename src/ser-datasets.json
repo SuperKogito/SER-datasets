@@ -71,17 +71,17 @@
     },
     "LSSED": {
         "Year": 2021,
-        "Content": "Large Scale Spanish Emotional Speech Database",
-        "Emotions": "8 emotions provides Spanish spoken utterances for anger, boredom, disgust, fear, happiness, neutral, sadness, and surprise.",
+        "Content": "LSSED: A Large-Scale Dataset and Benchmark for Speech Emotion Recognition",
+        "Emotions": "Anger, happiness, sadness, disappointment, boredom, disgust, excitement, fear, surprise, normal, and other.",
         "Format": "Audio",
         "Size": "90 GB",
-        "Language": "Spanish (Castilian)",
+        "Language": "English",
         "Paper": "LSSED: A Large-Scale Spanish Emotional Speech Database for Speech Processing and Machine Learning",
         "Access": "Restricted",
         "License": "-",
         "Dataset-link": "https://github.com/tobefans/LSSED",
-        "Paper-link": "https://www.mdpi.com/1424-8220/21/23/6985",
-        "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "Paper-link": "https://arxiv.org/abs/2102.01754",
+        "License-link": "https://github.com/tobefans/LSSED/blob/main/EULA.pdf"
     },
     "MLEnd": {
         "Year": 2021,
