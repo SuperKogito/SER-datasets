@@ -1,4 +1,32 @@
 {
+    "Audio-Speech-Sentiment": {
+        "Year": 2021,
+        "Content": "Audio Speech Sentiment Dataset",
+        "Emotions": "4 emotions provides audio recordings of spoken sentences for anger, happiness, sadness, and neutral emotions.",
+        "Format": "Audio",
+        "Size": "1.1 GB",
+        "Language": "English",
+        "Paper": null,
+        "Access": "Open",
+        "License": "CC0: Public Domain",
+        "Dataset-link": "https://www.kaggle.com/imsparsh/audio-speech-sentiment-analysis",
+        "Paper-link": null,
+        "License-link": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "PMEmo": {
+        "Year": 2019,
+        "Content": "PMEmo: A Multimodal Dataset for Emotion Recognition in Chronic Pain Patients",
+        "Emotions": "4 emotions provides audio and visual recordings of participants with chronic pain performing physical activities and self-reporting their emotional state for happy, sad, angry, and neutral emotions.",
+        "Format": "Audio, video, and annotations",
+        "Size": "17.8 GB",
+        "Language": "English",
+        "Paper": "PMEmo: A Multimodal Dataset for Emotion Recognition in Chronic Pain Patients",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://github.com/HuiZhangDB/PMEmo",
+        "Paper-link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6453745/",
+        "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
     "Quechua-SER": {
         "Year": 2022,
         "Content": "12420 audio recordings (~15 hours) and their transcriptions by 7 native speakers.",
@@ -43,17 +71,17 @@
     },
     "LSSED": {
         "Year": 2021,
-        "Content": "Large Scale Spanish Emotional Speech Database",
-        "Emotions": "8 emotions provides Spanish spoken utterances for anger, boredom, disgust, fear, happiness, neutral, sadness, and surprise.",
+        "Content": "LSSED: A Large-Scale Dataset and Benchmark for Speech Emotion Recognition",
+        "Emotions": "Anger, happiness, sadness, disappointment, boredom, disgust, excitement, fear, surprise, normal, and other.",
         "Format": "Audio",
         "Size": "90 GB",
-        "Language": "Spanish (Castilian)",
+        "Language": "English",
         "Paper": "LSSED: A Large-Scale Spanish Emotional Speech Database for Speech Processing and Machine Learning",
-        "Access": "Open",
-        "License": "CC BY-SA 4.0",
+        "Access": "Restricted",
+        "License": "-",
         "Dataset-link": "https://github.com/tobefans/LSSED",
-        "Paper-link": "https://www.mdpi.com/1424-8220/21/23/6985",
-        "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "Paper-link": "https://arxiv.org/abs/2102.01754",
+        "License-link": "https://github.com/tobefans/LSSED/blob/main/EULA.pdf"
     },
     "MLEnd": {
         "Year": 2021,
@@ -178,7 +206,7 @@
         "Access": "Open",
         "License": "CC BY 4.0",
         "Dataset-link": "https://doi.org/10.6084/m9.figshare.12498033",
-        "Paper-link": "https://www.mdpi.com/2076-3417/10/11/3704",
+        "Paper-link": "https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:236649",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
     "emotiontts open db": {

@@ -13,7 +13,7 @@ with open(json_file_path, 'r') as j:
 keys = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License", "Dataset-link", "Paper-link", "License-link"]
 header = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License"]
 
-md_0 = """***Spoken Emotion Recognition Datasets:*** *A collection of datasets (count={0})""".format(len(content.items()))
+md_0 = """***Speech Emotion Recognition (SER) Datasets:*** *A collection of datasets (count={0})""".format(len(content.items()))
 md_1 = """ for the purpose of emotion recognition/detection in speech.
 The table is chronologically ordered and includes a description of the content of each dataset along with the emotions included.
 The table can be browsed, sorted and searched under https://superkogito.github.io/SER-datasets/*
@@ -43,7 +43,10 @@ md_2 = """## References
 
 print(" -> Generate Markdown Text")
 def format_md_link(label, link):
-    res = "[{0}]({1})".format(label, link) if "http" in link else label
+    if link and "http" in link:
+        res = "[{0}]({1})".format(label, link)
+    else:
+        res = label
     return res
 
 # tabulate
@@ -68,7 +71,10 @@ with open("../README.md", "w") as f:
 
 print(" -> Generate Restructured Text")
 def format_rst_link(label, link):
-    res = "`{0} <{1}>`_".format(label, link) if "http" in link else label
+    if link and "http" in link:
+        res = "`{0} <{1}>`_".format(label, link)
+    else:
+        res = label
     return res
 
 # tabulate
