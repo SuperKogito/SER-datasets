@@ -1,4 +1,46 @@
 {
+    "emoUERJ":{
+        "Year": 2021,
+        "Content": "Ten sentences from eight actors, equally divided between genders, and they were free to choose the phrases for record audios in four emotions",
+        "Emotions": "happiness, anger, sadness or neutral",
+        "Format": "Audio",
+        "Size": "0.1051 GB",
+        "Language": "Portuguese (Brazilian)",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/5427549",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "ESC-Corpus-PE":{
+        "Year": 2021,
+        "Content": "Spanish peruvian speech gathered from Spanish interviews, TV reports, political debate and testimonials. It contains 3749 utterances, 80 speakers (44 male and 36 female), created from Youtube audios",
+        "Emotions": "Valence, Arousal and Dominance",
+        "Format": "Audio",
+        "Size": "1.9 GB",
+        "Language": "Spanish (Peruvian)",
+        "Paper": "ESCorpus-PE: A speech emotional database in Spanish with Peruvian accent",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://zenodo.org/records/5793223",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "SUBSECO":{
+        "Year": 2021,
+        "Content": "7000 sentence-level utterances of the Bangla language, 20 professional actors (10 males and 10 females), recordings, 10 sentences for 7 target emotions.",
+        "Emotions": "Anger, Disgust, Fear, Happiness, Neutral, Sadness and Surprise",
+        "Format": "Audio",
+        "Size": "1.7 GB",
+        "Language": "English",
+        "Paper": "SUST Bangla Emotional Speech Corpus (SUBESCO): An audio-only emotional speech corpus for Bangla",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/record/6339787",
+        "Paper-link": "https://doi.org/10.1371/journal.pone.0250173",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "Kannada Emotional Speech Dataset": {
         "Year": 2022,
         "Content": "468 audio samples, six different sentences, pronounced by thirteen people (four male and nine female), in five basic emotions plus one neutral emotion",
