@@ -27,7 +27,7 @@
         "Paper-link": "--",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
-    "ESC-Corpus-PE":{
+    "ESCorpus-PE":{
         "Year": 2021,
         "Content": "Spanish peruvian speech gathered from Spanish interviews, TV reports, political debate and testimonials. It contains 3749 utterances, 80 speakers (44 male and 36 female), created from Youtube audios",
         "Emotions": "Valence, Arousal and Dominance",
