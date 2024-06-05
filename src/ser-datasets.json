@@ -1,4 +1,18 @@
 {
+    "Kannada Emotional Speech Dataset": {
+        "Year": 2022,
+        "Content": "468 audio samples, six different sentences, pronounced by thirteen people (four male and nine female), in five basic emotions plus one neutral emotion",
+        "Emotions": "Anger, Sadness, Surprise, Happiness, Fear, Neutral",
+        "Format": "Audio",
+        "Size": "0.1661 GB",
+        "Language": "Kannada",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/6345107",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "Audio-Speech-Sentiment": {
         "Year": 2021,
         "Content": "Audio Speech Sentiment Dataset",
