@@ -28,6 +28,9 @@ md_2 = """## References
 - Expressive Synthetic Speech, [website](http://emosamples.syntheticspeech.de/)
 - Towards a standard set of acoustic features for the processing of emotion in speech, Technical university Munich, [document](https://asa.scitation.org/doi/pdf/10.1121/1.4739483)
 
+## Dataset loader
+
+There is a toolkit namely [Nkululeko](https://github.com/felixbur/nkululeko/tree/main/data) that has been developed to load most datasets in this list. The processing script there will split the data into train, validation, and test sets, and save them as CSV files with file paths and labels. Then, you can make make experiments to detect emotions from speech using the datasets with Nkululeko or other tools.
 
 ## Contribution
 
