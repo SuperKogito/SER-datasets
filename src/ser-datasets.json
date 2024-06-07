@@ -13,6 +13,20 @@
         "Paper-link": "https://arxiv.org/abs/2211.03371",
         "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
+    "Kannada": {
+        "Year": 2022,
+        "Content": "468 audio samples, six different sentences, pronounced by thirteen people (four male and nine female), in five basic emotions plus one neutral emotion",
+        "Emotions": "Anger, Sadness, Surprise, Happiness, Fear, Neutral",
+        "Format": "Audio",
+        "Size": "0.1661 GB",
+        "Language": "Kannada",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/6345107",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "emoUERJ": {
         "Year": 2021,
         "Content": "Ten sentences from eight actors, equally divided between genders, and they were free to choose the phrases for record audios in four emotions (377 audios). ",
@@ -55,20 +69,6 @@
         "Paper-link": "https://doi.org/10.1371/journal.pone.0250173",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
-    "Kannada": {
-        "Year": 2022,
-        "Content": "468 audio samples, six different sentences, pronounced by thirteen people (four male and nine female), in five basic emotions plus one neutral emotion",
-        "Emotions": "Anger, Sadness, Surprise, Happiness, Fear, Neutral",
-        "Format": "Audio",
-        "Size": "0.1661 GB",
-        "Language": "Kannada",
-        "Paper": "--",
-        "Access": "Open",
-        "License": "CC BY 4.0",
-        "Dataset-link": "https://zenodo.org/records/6345107",
-        "Paper-link": "--",
-        "License-link": "https://creativecommons.org/licenses/by/4.0/"
-    },
     "Audio-Speech-Sentiment": {
         "Year": 2021,
         "Content": "Audio Speech Sentiment Dataset",
@@ -82,20 +82,6 @@
         "Dataset-link": "https://www.kaggle.com/imsparsh/audio-speech-sentiment-analysis",
         "Paper-link": null,
         "License-link": "https://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    "PMEmo": {
-        "Year": 2019,
-        "Content": "Dataset containing emotion annotations of 794 songs as well as the simultaneous electrodermal activity (EDA) signals. A Music Emotion Experiment was well-designed for collecting the affective-annotated music corpus of high quality, which recruited 457 subjects.",
-        "Emotions": "Valence, Arousal",
-        "Format": "Audio, EDA",
-        "Size": "1.3 GB",
-        "Language": "Chinese, English",
-        "Paper": "The PMEmo Dataset for Music Emotion Recognition",
-        "Access": "Open",
-        "License": "CC BY-SA 4.0",
-        "Dataset-link": "https://github.com/HuiZhangDB/PMEmo",
-        "Paper-link": "https://dl.acm.org/doi/10.1145/3206025.3206037",
-        "License-link": "https://huisblog.cn/PMEmo//"
     },
     "Quechua-SER": {
         "Year": 2022,
@@ -334,6 +320,20 @@
         "Dataset-link": "https://zenodo.org/record/4066235",
         "Paper-link": "http://dx.doi.org/10.1037/emo0001048  ",
         "License-link": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "PMEmo": {
+        "Year": 2019,
+        "Content": "Dataset containing emotion annotations of 794 songs as well as the simultaneous electrodermal activity (EDA) signals. A Music Emotion Experiment was well-designed for collecting the affective-annotated music corpus of high quality, which recruited 457 subjects.",
+        "Emotions": "Valence, Arousal",
+        "Format": "Audio, EDA",
+        "Size": "1.3 GB",
+        "Language": "Chinese, English",
+        "Paper": "The PMEmo Dataset for Music Emotion Recognition",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://github.com/HuiZhangDB/PMEmo",
+        "Paper-link": "https://dl.acm.org/doi/10.1145/3206025.3206037",
+        "License-link": "https://huisblog.cn/PMEmo//"
     },
     "SEWA": {
         "Year": 2019,
