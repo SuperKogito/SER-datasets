@@ -1,5 +1,5 @@
 {
-    "Hi, KIA":{
+    "Hi, KIA": {
         "Year": 2022,
         "Content": "A shared short Wakeup Word database focusing on perceived emotion in speech The dataset contains 488 Wakeup Word speech",
         "Emotions": "angry, happy, sad, neutral",
@@ -13,7 +13,7 @@
         "Paper-link": "https://arxiv.org/abs/2211.03371",
         "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
-    "emoUERJ":{
+    "emoUERJ": {
         "Year": 2021,
         "Content": "Ten sentences from eight actors, equally divided between genders, and they were free to choose the phrases for record audios in four emotions (377 audios). ",
         "Emotions": "happiness, anger, sadness or neutral",
@@ -27,7 +27,7 @@
         "Paper-link": "--",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
-    "ESCorpus-PE":{
+    "ESCorpus-PE": {
         "Year": 2021,
         "Content": "Spanish peruvian speech gathered from Spanish interviews, TV reports, political debate and testimonials. It contains 3749 utterances, 80 speakers (44 male and 36 female), created from Youtube audios",
         "Emotions": "Valence, Arousal and Dominance",
@@ -41,7 +41,7 @@
         "Paper-link": "--",
         "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
-    "SUBSECO":{
+    "SUBSECO": {
         "Year": 2021,
         "Content": "7000 sentence-level utterances of the Bangla language, 20 professional actors (10 males and 10 females), recordings, 10 sentences for 7 target emotions.",
         "Emotions": "Anger, Disgust, Fear, Happiness, Neutral, Sadness and Surprise",
@@ -132,12 +132,12 @@
         "Format": "Audio",
         "Size": "0.941 GB",
         "Language": "German",
-	      "Paper": "SyntAct: A Synthesized Database of Basic Emotions",
-	      "Access": "Open",
-	      "License": "CC BY-SA 4.0",
-	      "Dataset-link": "https://zenodo.org/record/6573016#.ZAjy_9LMJpj",
-	      "Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
-	      "License-link": "https://creativecommons.org/licenses/by/4.0"
+        "Paper": "SyntAct: A Synthesized Database of Basic Emotions",
+        "Access": "Open",
+        "License": "CC BY-SA 4.0",
+        "Dataset-link": "https://zenodo.org/record/6573016#.ZAjy_9LMJpj",
+        "Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
+        "License-link": "https://creativecommons.org/licenses/by/4.0"
     },
     "LSSED": {
         "Year": 2021,
@@ -256,7 +256,7 @@
         "Content": "100 hours by over 100 speakers (see db link for details).",
         "Emotions": "This corpus is annotated with emotional labels using attribute-based descriptors (activation, dominance and valence) and categorical labels (anger, happiness, sadness, disgust, surprised, fear, contempt, neutral and other).",
         "Format": "Audio",
-        "Size": "13.4",
+        "Size": "13.4 GB",
         "Language": "English",
         "Paper": "The MSP-Conversation Corpus",
         "Access": "Restricted",
@@ -323,16 +323,16 @@
     },
     "VIVAE": {
         "Year": 2020,
-        "Content": "non-speech, 1085 audio file by 12 speakers.",
+        "Content": "non-speech, 1085 audio file by 11 speakers.",
         "Emotions": "non-speech 6 emotions: achievement, anger, fear, pain, pleasure, and surprise with 3 emotional intensities (low, moderate, strong, peak).",
         "Format": "Audio",
-        "Size": "--",
-        "Language": "--",
-        "Paper": "--",
+        "Size": "0.0935 GB",
+        "Language": "Nonverbal (English)",
+        "Paper": "The Variably Intense Vocalizations of Affect and Emotion (VIVAE) corpus prompts new perspective on nonspeech perception",
         "Access": "Restricted",
         "License": "CC BY-NC-SA 4.0",
         "Dataset-link": "https://zenodo.org/record/4066235",
-        "Paper-link": "--",
+        "Paper-link": "http://dx.doi.org/10.1037/emo0001048  ",
         "License-link": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     "SEWA": {

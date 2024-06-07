@@ -1,5 +1,6 @@
 
 import csv
+import http
 import json
 from tabulate import tabulate
 
@@ -7,13 +8,16 @@ from tabulate import tabulate
 # load datasets
 json_file_path = "ser-datasets.json"
 with open(json_file_path, 'r') as j:
-     content = json.loads(j.read())
+    content = json.loads(j.read())
 
 # init keys
-keys = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License", "Dataset-link", "Paper-link", "License-link"]
-header = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language", "Paper", "Access", "License"]
+keys = ["Dataset", "Year", "Content", "Emotions", "Format", "Size", "Language",
+        "Paper", "Access", "License", "Dataset-link", "Paper-link", "License-link"]
+header = ["Dataset", "Year", "Content", "Emotions", "Format",
+          "Size", "Language", "Paper", "Access", "License"]
 
-md_0 = """***Speech Emotion Recognition (SER) Datasets:*** *A collection of datasets (count={0})""".format(len(content.items()))
+md_0 = """***Speech Emotion Recognition (SER) Datasets:*** *A collection of datasets (count={0})""".format(
+    len(content.items()))
 md_1 = """ for the purpose of emotion recognition/detection in speech.
 The table is chronologically ordered and includes a description of the content of each dataset along with the emotions included.
 The table can be browsed, sorted and searched under https://superkogito.github.io/SER-datasets/*
@@ -28,9 +32,6 @@ md_2 = """## References
 - Expressive Synthetic Speech, [website](http://emosamples.syntheticspeech.de/)
 - Towards a standard set of acoustic features for the processing of emotion in speech, Technical university Munich, [document](https://asa.scitation.org/doi/pdf/10.1121/1.4739483)
 
-## Dataset loader
-
-There is a toolkit namely [Nkululeko](https://github.com/felixbur/nkululeko/tree/main/data) that has been developed to load most datasets in this list. The processing script there will split the data into train, validation, and test sets, and save them as CSV files with file paths and labels. Then, you can make make experiments to detect emotions from speech using the datasets with Nkululeko or other tools.
 
 ## Contribution
 
@@ -41,10 +42,19 @@ There is a toolkit namely [Nkululeko](https://github.com/felixbur/nkululeko/tree
 
 ## Disclaimer
 - The mainter and the contributors try their best to keep this list up-to-date, and to only include working links (using automated verification with the help of the [urlchecker-action](https://github.com/marketplace/actions/urlchecker-action)). However, we cannot guarantee that all listed links are up-to-date. Read more in [DISCLAIMER.md](https://github.com/SuperKogito/SER-datasets/blob/master/DISCLAIMER.md).
+
+## Recommended tools
+
+- [Nkululeko](https://github.com/felixbur/nkululeko)  
+This toolkit has a [data](https://github.com/felixbur/nkululeko/tree/main/data) directory with each python-preprocessing script that can load most datasets in this list. The processing script there will split the data into train, validation, and test sets, and save them as CSV files with file paths and labels. Then, you can make make experiments to detect emotions from speech using that dataset with Nkululeko or other tools.
+
+- [ERTK](https://github.com/Strong-AI-Lab/emotion)  
+Similar to Nkululeko, ERTK (emotion recognition toolkit) also has [dataset](https://github.com/Strong-AI-Lab/emotion/tree/master/datasets) directory that can load most datasets in this list.
 """
 
-
 print(" -> Generate Markdown Text")
+
+
 def format_md_link(label, link):
     if link and "http" in link:
         res = "[{0}]({1})".format(label, link)
@@ -52,13 +62,16 @@ def format_md_link(label, link):
         res = label
     return res
 
+
 # tabulate
 table = []
 for key, values in content.items():
     # add elements to row
     row = [format_md_link(key, values["Dataset-link"])]
-    row += [values[k] for k in ["Year", "Content", "Emotions", "Format", "Size", "Language"]]
-    row += [format_md_link(values["Paper"], values["Paper-link"]), values["Access"], format_md_link(values["License"], values["License-link"])]
+    row += [values[k] for k in ["Year", "Content",
+                                "Emotions", "Format", "Size", "Language"]]
+    row += [format_md_link(values["Paper"], values["Paper-link"]), values["Access"],
+            format_md_link(values["License"], values["License-link"])]
 
     # add styles and add row to table
     row = ["<sub>{0}</sub>".format(e) for e in row]
@@ -73,6 +86,8 @@ with open("../README.md", "w") as f:
 
 
 print(" -> Generate Restructured Text")
+
+
 def format_rst_link(label, link):
     if link and "http" in link:
         res = "`{0} <{1}>`_".format(label, link)
@@ -80,13 +95,16 @@ def format_rst_link(label, link):
         res = label
     return res
 
+
 # tabulate
 table = []
 for key, values in content.items():
     # add elements to row
     row = [format_rst_link(key, values["Dataset-link"])]
-    row += [values[k] for k in ["Year", "Content", "Emotions", "Format", "Size", "Language"]]
-    row += [format_rst_link(values["Paper"], values["Paper-link"]), values["Access"]]
+    row += [values[k] for k in ["Year", "Content",
+                                "Emotions", "Format", "Size", "Language"]]
+    row += [format_rst_link(values["Paper"],
+                            values["Paper-link"]), values["Access"]]
     row += [format_rst_link(values["License"], values["License-link"])]
 
     # format and add row to csv
