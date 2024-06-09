@@ -41,3 +41,15 @@ Disclaimer
 
 The maintainer and the contributors try their best to keep this list up-to-date, and to only include working links (using automated verification with the help of the `urlchecker-action <https://github.com/marketplace/actions/urlchecker-action>`_).
 However, we cannot guarantee that all listed links are up-to-date. Read more in `DISCLAIMER.md <https://github.com/SuperKogito/SER-datasets/blob/master/DISCLAIMER.md>`_.
+
+
+Recommended tools
+=================
+
+- `Nkululeko <https://github.com/felixbur/nkululeko>`_  
+This toolkit has a `data <https://github.com/felixbur/nkululeko/tree/main/data>`_ directory with each python-preprocessing script that can load most datasets in this list. 
+The processing script there will split the data into train, validation, and test sets, and save them as CSV files with file paths and labels. 
+Then, you can make make experiments to detect emotions from speech using that dataset with Nkululeko or other tools.
+
+- `ERTK <https://github.com/Strong-AI-Lab/emotion>`_  
+Similar to Nkululeko, ERTK (emotion recognition toolkit) also has `dataset <https://github.com/Strong-AI-Lab/emotion/tree/master/datasets>`_ directory that can load most datasets in this list.
