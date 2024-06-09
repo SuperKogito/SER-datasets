@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - 'src/ser-datasets.json'
+  pull_request:
+    paths:
+      - 'src/ser-datasets.json'
 
 jobs:
   generate_files:
@@ -16,24 +19,25 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.7ss'  # Specify the Python version you need
+        python-version: '3.7'  # Specify the Python version you need
 
     - name: Install dependencies
       run: |
         cd src
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Adjust if necessary
+        pip install -r requirements.txt
 
     - name: Run script to generate CSV and README
       run: |
         cd src
-        python generate_files.py  # Replace with the name of your Python script
+        python generate_files.py
 
     - name: Commit and push changes
+      if: github.event_name == 'push'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add src/ser-datasets.csv src/README.md  # Replace with your actual CSV file name
+        git add src/ser-datasets.csv README.md  # Replace with your actual CSV file name
         git commit -m 'Automatically generated CSV and README from JSON update'
         git push origin HEAD:main  # Adjust if your default branch is not 'main'
       env:

@@ -13,6 +13,20 @@
         "Paper-link": "https://arxiv.org/abs/2211.03371",
         "License-link": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
+    "Emozionalmente": {
+        "Year": 2022,
+        "Content": "6902 labeled samples acted out by 431 amateur actors while verbalizing 18 different sentences",
+        "Emotions": "anger, disgust, fear, joy, sadness, surprise, neutral",
+        "Format": "Audio",
+        "Size": "0.581 GB",
+        "Language": "Italian",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://zenodo.org/records/6569824",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "Kannada": {
         "Year": 2022,
         "Content": "468 audio samples, six different sentences, pronounced by thirteen people (four male and nine female), in five basic emotions plus one neutral emotion",
