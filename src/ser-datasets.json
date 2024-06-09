@@ -48,7 +48,7 @@
         "Format": "Audio",
         "Size": "1.9 GB",
         "Language": "Spanish (Peruvian)",
-        "Paper": "ESCorpus-PE: A speech emotional database in Spanish with Peruvian accent",
+        "Paper": "--",
         "Access": "Open",
         "License": "CC BY-SA 4.0",
         "Dataset-link": "https://zenodo.org/records/5793223",
@@ -76,11 +76,11 @@
         "Format": "Audio",
         "Size": "1.1 GB",
         "Language": "English",
-        "Paper": null,
+        "Paper": "--",
         "Access": "Open",
         "License": "CC0: Public Domain",
         "Dataset-link": "https://www.kaggle.com/imsparsh/audio-speech-sentiment-analysis",
-        "Paper-link": null,
+        "Paper-link": "--",
         "License-link": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     "Quechua-SER": {
@@ -318,7 +318,7 @@
         "Access": "Restricted",
         "License": "CC BY-NC-SA 4.0",
         "Dataset-link": "https://zenodo.org/record/4066235",
-        "Paper-link": "http://dx.doi.org/10.1037/emo0001048  ",
+        "Paper-link": "http://dx.doi.org/10.1037/emo0001048",
         "License-link": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
     "PMEmo": {
