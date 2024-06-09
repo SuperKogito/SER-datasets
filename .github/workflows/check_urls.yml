@@ -1,6 +1,10 @@
 name: Urls checking
 
-on: [push]
+on:
+  workflow_run:
+    workflows: ["Generate CSV and README"]
+    types:
+      - completed
 
 jobs:
   build:
@@ -10,23 +14,10 @@ jobs:
     - name: Urlshecker
       uses: urlstechie/urlchecker-action@master
       with:
-        # A project to clone. If not provided, assumes already cloned in the present working directory.
         git_path: https://github.com/SuperKogito/SER-datasets
-
-        # Delete the cloned repository after running URLchecked (default is false)
         cleanup: true
-
-        # A comma-separated list of file types to cover in the URL checks
         file_types: ".md"
-
-        # Choose whether to include file with no URLs in the prints.
         print_all: false
-
-        # The timeout seconds to provide to requests, defaults to 5 seconds
         timeout: 9
-
-        # How many times to retry a failed request (each is logged, defaults to 1)
         retry_count: 3
-
-        # choose if the force pass or not
-        force_pass : true
+        force_pass: true
