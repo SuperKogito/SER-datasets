@@ -1,7 +1,9 @@
 name: Generate CSV and README
 
 on:
-  pull_request:
+  push:
+    branches:
+      - master
     paths:
       - 'src/ser-datasets.json'
 
@@ -34,7 +36,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add src/ser-datasets.csv README.md                                           
+        git pull origin master  # Pull the latest changes from the remote repository
+        git add src/ser-datasets.csv README.md
         git commit -m 'Automatically generated CSV and README from JSON update'
         git push origin HEAD:master
       env:
