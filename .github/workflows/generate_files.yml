@@ -1,9 +1,6 @@
 name: Generate CSV and README
 
 on:
-  push:
-    paths:
-      - 'src/ser-datasets.json'
   pull_request:
     paths:
       - 'src/ser-datasets.json'
