@@ -1,4 +1,18 @@
 {
+    "KBES": {
+        "Year": 2023,
+        "Content": "900 audio signals from 35 actors (20 females and 15 males). Each emotion is represented with two intensity levels (low & high)",
+        "Emotions": "angry, disgusted, happy, neutral, sad",
+        "Format": "Audio",
+        "Size": "0.337 GB",
+        "Language": "Bangla",
+        "Paper": "KBES: A dataset for realistic Bangla speech emotion recognition with intensity level",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://data.mendeley.com/datasets/vsn37ps3rx/4",
+        "Paper-link": "https://www.sciencedirect.com/science/article/pii/S2352340923008107",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },  
     "Hi, KIA": {
         "Year": 2022,
         "Content": "A shared short Wakeup Word database focusing on perceived emotion in speech The dataset contains 488 Wakeup Word speech",

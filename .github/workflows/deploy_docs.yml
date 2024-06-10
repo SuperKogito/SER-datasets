@@ -1,0 +1,41 @@
+name: Build and Deploy Sphinx Documentation
+
+on:
+  push:
+    branches:
+      - master
+  workflow_run:
+    workflows: ["Urls checking"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.7'
+
+    - name: Install dependencies
+      run: |
+        cd src
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Build Sphinx documentation
+      run: |
+        cd src
+        make html
+
+    - name: Deploy to GitHub Pages
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs/html

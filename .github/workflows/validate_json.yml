@@ -1,0 +1,30 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'src/ser-datasets.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.7'  
+
+    - name: Install dependencies
+      run: |
+        cd src
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Validate JSON
+      run: |
+        cd src
+        python validate_json.py
