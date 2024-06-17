@@ -111,6 +111,20 @@
         "Paper-link": "--",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
+    "Thorsten-Voice Dataset 2021.06 emotional": {
+        "Year": 2021,
+        "Content": "2400 normalized mono recordings by one person (Thorsten Müller) representing 300 sentences. ",
+        "Emotions": "Amusement, Disgust Anger, Suprise and Neutral (plus drunk, whispering and sleepy states)",
+        "Format": "Audio",
+        "Size": "0.399 GB",
+        "Language": "German",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC0: Public Domain",
+        "Dataset-link": "https://zenodo.org/records/5525023",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
     "ESCorpus-PE": {
         "Year": 2021,
         "Content": "Spanish peruvian speech gathered from Spanish interviews, TV reports, political debate and testimonials. It contains 3749 utterances, 80 speakers (44 male and 36 female), created from Youtube audios",
