@@ -27,6 +27,20 @@
         "Paper-link": "https://arxiv.org/abs/2305.13137",
         "License-link": "https://apache.org/licenses/LICENSE-2.0"
     },
+    "CAVES": {
+        "Year": 2023,
+        "Content": "Full hd visual recordings of 10 native cantonese speakers uttering 50 sentences.",
+        "Emotions": "Anger, happiness, sadness, surprise, fear, disgust and neutral",
+        "Format": "Audio",
+        "Size": "47 GB",
+        "Language": "Chinese (cantonese)",
+        "Paper": "A Cantonese Audio-Visual Emotional Speech (CAVES) dataset",
+        "Access": "Open",
+        "License": "Available for research purposes only",
+        "Dataset-link": "https://rds.westernsydney.edu.au/Institutes/MARCS/2024/Christopher_Davis/",
+        "Paper-link": "https://link.springer.com/article/10.3758/s13428-023-02270-7",
+        "License-link": "--"
+    },
     "BANSpEmo": {
         "Year": 2023,
         "Content": "792 utterance recordings from 22 unprofessional speakers (11 males and 11 females) of six basic emotional reactions of two sets of sentences.",
