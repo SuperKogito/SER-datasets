@@ -391,6 +391,20 @@
         "Paper-link": "http://dx.doi.org/10.1037/emo0001048",
         "License-link": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
     },
+    "Morgan Emotional Speech Set": {
+        "Year": 2019,
+        "Content": "999 spontaneous voice messages from 100 Spanish speakers, collected from real conversations on a messaging app.",
+        "Emotions": "Valence & arrousal dimensions and 4 emotions: happiness, anger, sadness, and calmness.",
+        "Format": "Audio",
+        "Size": "0.192 GB",
+        "Language": "English",
+        "Paper": "Categorical and Dimensional Ratings of Emotional Speech: Behavioral Findings From the Morgan Emotional Speech Set",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://arxiv.org/abs/2403.02167",
+        "Paper-link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203525/",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "PMEmo": {
         "Year": 2019,
         "Content": "Dataset containing emotion annotations of 794 songs as well as the simultaneous electrodermal activity (EDA) signals. A Music Emotion Experiment was well-designed for collecting the affective-annotated music corpus of high quality, which recruited 457 subjects.",
