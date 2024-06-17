@@ -2,7 +2,7 @@
     "EMOVOME": {
         "Year": 2024,
         "Content": "999 spontaneous voice messages from 100 Spanish speakers, collected from real conversations on a messaging app.",
-        "Emotions": "Valence & arrousal dimensions and 7 emotions: happiness, disgust, anger, surprise, fear and sadness, and neutral.",
+        "Emotions": "Valence & arrousal dimensions and 7 emotions: happiness, disgust, anger, surprise, fear, sadness, and neutral.",
         "Format": "Audio",
         "Size": "--",
         "Language": "Spanish",
@@ -12,6 +12,20 @@
         "Dataset-link": "https://arxiv.org/abs/2403.02167",
         "Paper-link": "https://arxiv.org/abs/2312.14020",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "EMNS": {
+        "Year": 2023,
+        "Content": "1206 high quality labeled utterances by one female speaker (2-3 hours).",
+        "Emotions": "Anger, excitement, disgust, happiness, surprise, sadness, and neutral (plus sarcasm)",
+        "Format": "Audio",
+        "Size": "0.042 GB",
+        "Language": "English (British)",
+        "Paper": "EMNS /Imz/ Corpus: An emotive single-speaker dataset for narrative storytelling in games, television and graphic novels",
+        "Access": "Open",
+        "License": "Apache 2.0",
+        "Dataset-link": "http://www.openslr.org/136/",
+        "Paper-link": "https://arxiv.org/abs/2305.13137",
+        "License-link": "https://apache.org/licenses/LICENSE-2.0"
     },
     "BANSpEmo": {
         "Year": 2023,
