@@ -9,8 +9,8 @@
         "Paper": "EMOVOME Database: Advancing Emotion Recognition in Speech Beyond Staged Scenarios",
         "Access": "Partially open",
         "License": "CC BY 4.0",
-        "Dataset-link": "https://arxiv.org/abs/2403.02167",
-        "Paper-link": "https://arxiv.org/abs/2312.14020",
+        "Dataset-link": "https://zenodo.org/records/10694370",
+        "Paper-link": "https://arxiv.org/abs/2403.02167",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
     "EMNS": {
@@ -109,6 +109,20 @@
         "License": "CC BY 4.0",
         "Dataset-link": "https://data.mendeley.com/datasets/t9h6p943xy/5",
         "Paper-link": "https://www.sciencedirect.com/science/article/pii/S235234092200302X",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },   
+    "B-SER": {
+        "Year": 2022,
+        "Content": "1224 speech-audio recordings by 34 non-professional participating actors (17 male and 17 female) from diverse age groups between 19 and 47 years.",
+        "Emotions": "angry, happy, sad and surprise",
+        "Format": "Audio",
+        "Size": "0.363 GB",
+        "Language": "Bangla",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://data.mendeley.com/datasets/t9h6p943xy/3",
+        "Paper-link": "--",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },    
     "Kannada": {
