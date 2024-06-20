@@ -167,6 +167,20 @@
         "Paper-link": "--",
         "License-link": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
+    "ASED": {
+        "Year": 2021,
+        "Content": "2474 recordings by 65 participants (25 females and 40 males)). Each speaker recorded 25 different sentences with different emotions and additionally 2 specific sentences with each emotion.",
+        "Emotions": "Five emotions: anger, happiness, fear, sadness and neutral",
+        "Format": "Audio",
+        "Size": "0.135 GB",
+        "Language": "Amharic",
+        "Paper": "A New Amharic Speech Emotion Dataset and Classification Benchmark",
+        "Access": "Open",
+        "License": "--",
+        "Dataset-link": "https://github.com/Ethio2021/ASED_V1",
+        "Paper-link": "https://dl.acm.org/doi/10.1145/3529759",
+        "License-link": "--"
+    },
     "ESCorpus-PE": {
         "Year": 2021,
         "Content": "Spanish peruvian speech gathered from Spanish interviews, TV reports, political debate and testimonials. It contains 3749 utterances, 80 speakers (44 male and 36 female), created from Youtube audios",
