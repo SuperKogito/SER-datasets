@@ -211,7 +211,7 @@
     },
     "Dusha": {
         "Year": 2022,
-        "Content": " 300 000 audio recordings (~350 hours) of Russian speech, their transcripts and emotiomal labels. The dataset has two subsets: acted and real-life",
+        "Content": "300000 audio recordings (~350 hours) of Russian speech, their transcripts and emotiomal labels. The dataset has two subsets: acted and real-life",
         "Emotions": "4 emotions: angry, happy, sad and neutral. Arousal and valence metrics are also available.",
         "Format": "Audio",
         "Size": "58 GB",
