@@ -223,6 +223,20 @@
         "Paper-link": "https://arxiv.org/abs/2212.12266",
         "License-link": "https://github.com/salute-developers/golos/blob/master/license/en_us.pdf"
     },
+    "EMOVIE": {
+        "Year": 2021,
+        "Content": "9724 samples with audio files and its emotion human-labeled annotation.",
+        "Emotions": "Polarity metrics (positive:+1, negative:-1)",
+        "Format": "Audio",
+        "Size": "0.572 GB",
+        "Language": "Chinese (Mandarin)",
+        "Paper": "EMOVIE: A Mandarin Emotion Speech Dataset with a Simple Emotional Text-to-Speech Model",
+        "Access": "Open",
+        "License": "CC BY-NC-SA 2.0",
+        "Dataset-link": "https://viem-ccy.github.io/EMOVIE/dataset_release.html",
+        "Paper-link": "https://arxiv.org/abs/2106.09317",
+        "License-link": "https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode"
+    },
     "emoUERJ": {
         "Year": 2021,
         "Content": "Ten sentences from eight actors, equally divided between genders, and they were free to choose the phrases for record audios in four emotions (377 audios). ",
