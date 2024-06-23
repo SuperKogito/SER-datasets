@@ -1,4 +1,18 @@
 {
+    "nEmo": {
+        "Year": 2024,
+        "Content": "3 hours of samples recorded with the participation of nine actors.",
+        "Emotions": "6 emotions: anger, fear, happiness, sadness, surprised, and neutral.",
+        "Format": "Audio",
+        "Size": "0.434 GB",
+        "Language": "Polish",
+        "Paper": "nEMO: Dataset of Emotional Speech in Polish",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://github.com/amu-cai/nEMO",
+        "Paper-link": "https://arxiv.org/abs/2404.06292",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "EMOVOME": {
         "Year": 2024,
         "Content": "999 spontaneous voice messages from 100 Spanish speakers, collected from real conversations on a messaging app.",
