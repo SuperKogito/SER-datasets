@@ -265,6 +265,20 @@
         "Paper-link": "http://felix.syntheticspeech.de/publications/synthetic_database.pdf",
         "License-link": "https://creativecommons.org/licenses/by/4.0"
     },
+    "BEAT": {
+        "Year": 2022,
+        "Content": "76-Hour and 30-Speaker of 4 different languages: English (60h), Chinese (12h), Spanish (2h) and Japanese (2h).",
+        "Emotions": "8 emotions: happiness, anger, disgust, sadness, contempt, surprise, fear, and neutral",
+        "Format": "Audio, Video",
+        "Size": "42 GB",
+        "Language": "English, Chinese, Spanish, Japanese",
+        "Paper": "A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+        "Access": "Open",
+        "License": "Non-commercial license",
+        "Dataset-link": "https://drive.google.com/drive/folders/1EKuWH8q178QOtFUYaNohdkZbBHQYAmhL",
+        "Paper-link": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670605.pdf",
+        "License-link": "--"
+    },
     "Dusha": {
         "Year": 2022,
         "Content": " 300 000 audio recordings (~350 hours) of Russian speech, their transcripts and emotiomal labels. The dataset has two subsets: acted and real-life",
