@@ -223,6 +223,20 @@
         "Paper-link": "https://arxiv.org/abs/2212.12266",
         "License-link": "https://github.com/salute-developers/golos/blob/master/license/en_us.pdf"
     },
+    "MAFW": {
+        "Year": 2022,
+        "Content": "10045 video-audio clips in the wild.",
+        "Emotions": "11 single-label emotion categories (anger, disgust, fear, happiness, neutral, sadness, surprise, contempt, anxiety, helplessness, and disappointment) and 32 multi-label emotion categories.",
+        "Format": "Audio, Video",
+        "Size": "58 GB",
+        "Language": "--",
+        "Paper": "MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild",
+        "Access": "Restricted",
+        "License": "Non-commercial research purposes",
+        "Dataset-link": "https://mafw-database.github.io/MAFW/",
+        "Paper-link": "https://arxiv.org/abs/2208.00847",
+        "License-link": "--"
+    },
     "EMOVIE": {
         "Year": 2021,
         "Content": "9724 samples with audio files and its emotion human-labeled annotation.",
