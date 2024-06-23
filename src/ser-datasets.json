@@ -643,6 +643,20 @@
         "Paper-link": "https://arxiv.org/pdf/1806.09514.pdf",
         "License-link": "--"
     },
+    "OMG Emotion": {
+        "Year": 2018,
+        "Content": "420 relatively long emotion videos with an average length of 1 minute, collected from a variety of Youtube channels.",
+        "Emotions": "7 emotions:anger, disgust, fear, happy, sad, surprise and neutral. Plus valence, arousal.",
+        "Format": "Audio, Video",
+        "Size": "--",
+        "Language": "English",
+        "Paper": "The OMG-Emotion Behavior Dataset",
+        "Access": "Open",
+        "License": "CC BY-NC-SA 3.0",
+        "Dataset-link": "https://www2.informatik.uni-hamburg.de/wtm/OMG-EmotionChallenge/",
+        "Paper-link": "https://arxiv.org/abs/1803.05434",
+        "License-link": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
     "RAVDESS": {
         "Year": 2018,
         "Content": "7356 recordings by 24 actors.",
