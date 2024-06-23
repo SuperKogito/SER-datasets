@@ -228,7 +228,7 @@
         "Content": "10045 video-audio clips in the wild.",
         "Emotions": "11 single-label emotion categories (anger, disgust, fear, happiness, neutral, sadness, surprise, contempt, anxiety, helplessness, and disappointment) and 32 multi-label emotion categories.",
         "Format": "Audio, Video",
-        "Size": "58 GB",
+        "Size": "--",
         "Language": "--",
         "Paper": "MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild",
         "Access": "Restricted",
@@ -460,6 +460,20 @@
         "Dataset-link": "https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html",
         "Paper-link": "http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=290&id=684",
         "License-link": "Academic License & Commercial License"
+    },
+    "AISHELL-3": {
+        "Year": 2020,
+        "Content": "Roughly 85 hours of emotion-neutral recordings spoken by 218 native Chinese mandarin speakers and total 88035 utterances.",
+        "Emotions": "Neutral",
+        "Format": "Audio",
+        "Size": "19 GB",
+        "Language": "Chinese (Mandarin)",
+        "Paper": "AISHELL-3: A Multi-speaker Mandarin TTS Corpus and the Baselines",
+        "Access": "Open",
+        "License": "Apache 2.0",
+        "Dataset-link": "https://www.openslr.org/93/",
+        "Paper-link": "https://arxiv.org/abs/2010.11567",
+        "License-link": "https://apache.org/licenses/LICENSE-2.0"
     },
     "BEASC": {
         "Year": 2020,
