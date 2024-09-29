@@ -82,7 +82,21 @@
         "Dataset-link": "https://data.mendeley.com/datasets/vsn37ps3rx/4",
         "Paper-link": "https://www.sciencedirect.com/science/article/pii/S2352340923008107",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
-    },  
+    },
+    "RESD": {
+        "Year": 2022,
+        "Content": "Russian emotional speech dialogue dataset ~3.5 hours of actor-voiced dialogues, each ~3 minutes long, with speech files (16000 or 44100Hz), with speech-to-text transcripts",
+        "Emotions": "anger, disgust, fear, enthusiasm, happiness, neutral, sadness",
+        "Format": "Audio",
+        "Size": "0.48 GB",
+        "Language": "Russian",
+        "Paper": "EmoBox: Multilingual Multi-corpus Speech Emotion Recognition Toolkit and Benchmark",
+        "Access": "Open",
+        "License": "MIT",
+        "Dataset-link": "https://huggingface.co/datasets/Aniemore/resd_annotated",
+        "Paper-link": "https://arxiv.org/abs/2406.07162",
+        "License-link": "https://choosealicense.com/licenses/mit/"
+    },
     "Hi, KIA": {
         "Year": 2022,
         "Content": "A shared short Wakeup Word database focusing on perceived emotion in speech The dataset contains 488 Wakeup Word speech",
