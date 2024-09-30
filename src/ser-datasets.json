@@ -13,6 +13,20 @@
         "Paper-link": "https://arxiv.org/abs/2404.06292",
         "License-link": "https://creativecommons.org/licenses/by/4.0/"
     },
+    "MDER": {
+        "Year": 2024,
+        "Content": "2000 voice records of people speaking Moroccan dialect.",
+        "Emotions": "5 emotions: Neutral, Happy, Sad, Angry and Fearful.",
+        "Format": "Audio",
+        "Size": "0.187 GB",
+        "Language": "Arabic Moroccan",
+        "Paper": "--",
+        "Access": "Open",
+        "License": "CC BY 4.0",
+        "Dataset-link": "https://ieee-dataport.org/documents/moroccan-dialect-emotion-recognition-dataset#files",
+        "Paper-link": "--",
+        "License-link": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "EMOVOME": {
         "Year": 2024,
         "Content": "999 spontaneous voice messages from 100 Spanish speakers, collected from real conversations on a messaging app.",
